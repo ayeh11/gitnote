@@ -1,0 +1,121 @@
+/* src/Home.css */
+.home {
+    font-family: 'Arial', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 45px;
+    padding-bottom: 100px;
+  }
+  
+  .title {
+    background-color: #0d194e;
+    color: white;
+    text-align: center;
+    padding: 30px 5px;
+  }
+  
+  .diagonal {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(5deg, white 50%, #0d194e 50%);
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .catchphrase {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .roadmap {
+    background-color: white;
+    padding: 0px 100px;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .step-left .step-content {
+    text-align: left;
+    flex-direction: row;
+  }
+  
+  .step-right .step-content {
+    text-align: right;
+    flex-direction: row-reverse;
+  }
+  
+  .step-content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .step-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .step-content p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .step-content img {
+    width: 480px;
+    height: 300px;
+  }
+  
+  .step-words {
+    padding: 0px 20px;
+    margin-top: 50px;
+  }
+  
+  .future-features {
+    list-style-type: disc;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    color: white;
+  }
+  
+  .future-features li {
+    margin: 10px 0;
+    font-size: 0.4em;
+  }
+  
+  @media (max-width: 600px) {
+    .home {
+      font-family: 'Arial', sans-serif;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      margin-top: 220px;
+    }
+  
+    .step {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .step-right .step-content {
+      flex-direction: column-reverse;
+      text-align: left;
+    }
+  
+    .arrow-img {
+      margin-left: 0;
+      margin-top: 10px;
+      align-self: flex-start;
+    }
+  }
+  

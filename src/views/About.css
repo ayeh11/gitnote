@@ -1,0 +1,82 @@
+/* About.css */
+
+/* Basic styling for the About page container */
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Styling the form */
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Label styling */
+  label {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* Input field styling */
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Submit button styling */
+  .submit-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Response message styling */
+  p {
+    font-size: 1rem;
+    color: #28a745;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  p.error {
+    color: #dc3545;
+  }
+  
