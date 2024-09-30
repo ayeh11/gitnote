@@ -15,6 +15,15 @@
                 ]
             },
             {
+                "text": "Searching Methods",
+                "page_num": 1,
+                "section_text": [
+                    " Searching algorithms help find specific elements in a data structure. Two common methods include:",
+                    " Linear Search: Iterates through each element one by one to find the target. Time complexity: O(n).",
+                    " Binary Search: Efficiently finds elements in a sorted array by halving the search space at each step. Time complexity: O(log n)."
+                ]
+            },
+            {
                 "text": "Types of Data Structures",
                 "page_num": 1,
                 "section_text": [
@@ -30,15 +39,6 @@
                     " Sorting algorithms are methods to rearrange data in a specific order, such as ascending or descending. Two popular sorting algorithms are:",
                     " Bubble Sort: Repeatedly swaps adjacent elements if they are in the wrong order. Time complexity: O(n\u00b2).",
                     " Merge Sort: A divide-and-conquer algorithm that splits the array into halves, recursively sorts them, and merges them back together. Time complexity: O(n log n)."
-                ]
-            },
-            {
-                "text": "Searching Methods",
-                "page_num": 1,
-                "section_text": [
-                    " Searching algorithms help find specific elements in a data structure. Two common methods include:",
-                    " Linear Search: Iterates through each element one by one to find the target. Time complexity: O(n).",
-                    " Binary Search: Efficiently finds elements in a sorted array by halving the search space at each step. Time complexity: O(log n)."
                 ]
             }
         ]
