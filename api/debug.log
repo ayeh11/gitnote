@@ -1,232 +1,232 @@
-2024-09-29 22:54:25,810 - DEBUG - Loading file: notes4.json as Note 4
-2024-09-29 22:54:25,811 - DEBUG - Loading file: notes5.json as Note 5
-2024-09-29 22:54:25,811 - DEBUG - Loading file: notes2.json as Note 2
-2024-09-29 22:54:25,811 - DEBUG - Loading file: notes3.json as Note 3
-2024-09-29 22:54:25,812 - INFO - Generating embeddings for headers...
-2024-09-29 22:54:25,812 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:26,001 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:26,001 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:26,001 - DEBUG - Generated and cached embedding for header: 'Intro to Algorithms' with key '2_Intro to Algorithms'
-2024-09-29 22:54:26,001 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:26,098 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:26,098 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:26,098 - DEBUG - Generated and cached embedding for header: 'Sorting' with key '2_Sorting'
-2024-09-29 22:54:26,098 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:26,191 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:26,191 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:26,191 - DEBUG - Generated and cached embedding for header: 'Section 1 The Mongols' with key '3_Section 1 The Mongols'
-2024-09-29 22:54:26,191 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:26,207 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:26,207 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:26,207 - DEBUG - Generated and cached embedding for header: 'Advanced Data Structures' with key '4_Advanced Data Structures'
-2024-09-29 22:54:26,208 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:26,303 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:26,303 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:26,303 - DEBUG - Generated and cached embedding for header: 'Graph Algorithms' with key '4_Graph Algorithms'
-2024-09-29 22:54:26,303 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:26,320 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:26,320 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:26,320 - DEBUG - Generated and cached embedding for header: 'Data Structures' with key '5_Data Structures'
-2024-09-29 22:54:26,320 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:26,337 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:26,337 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:26,337 - DEBUG - Generated and cached embedding for header: 'Graph Theory' with key '5_Graph Theory'
-2024-09-29 22:54:26,337 - INFO - Comparing headers for similarity and overlap...
-2024-09-29 22:54:26,337 - DEBUG - Headers 'Intro to Algorithms' and 'Sorting' have similarity 0.3534 and overlap ratio 0.0000
-2024-09-29 22:54:26,337 - DEBUG - Headers 'Intro to Algorithms' and 'Section 1 The Mongols' have similarity 0.1150 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Intro to Algorithms' and 'Advanced Data Structures' have similarity 0.5244 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Intro to Algorithms' and 'Graph Algorithms' have similarity 0.6847 and overlap ratio 0.3333
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Intro to Algorithms' and 'Data Structures' have similarity 0.4147 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Intro to Algorithms' and 'Graph Theory' have similarity 0.3568 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Sorting' and 'Section 1 The Mongols' have similarity 0.1151 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Sorting' and 'Advanced Data Structures' have similarity 0.3012 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Sorting' and 'Graph Algorithms' have similarity 0.2992 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Sorting' and 'Data Structures' have similarity 0.3390 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Sorting' and 'Graph Theory' have similarity 0.2028 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Section 1 The Mongols' and 'Advanced Data Structures' have similarity 0.0556 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Section 1 The Mongols' and 'Graph Algorithms' have similarity 0.1609 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Section 1 The Mongols' and 'Data Structures' have similarity 0.0885 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Section 1 The Mongols' and 'Graph Theory' have similarity 0.2468 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Advanced Data Structures' and 'Graph Algorithms' have similarity 0.4608 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Advanced Data Structures' and 'Data Structures' have similarity 0.9073 and overlap ratio 0.6667
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Advanced Data Structures' and 'Graph Theory' have similarity 0.4192 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Graph Algorithms' and 'Data Structures' have similarity 0.3577 and overlap ratio 0.0000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Graph Algorithms' and 'Graph Theory' have similarity 0.7857 and overlap ratio 0.5000
-2024-09-29 22:54:26,338 - DEBUG - Headers 'Data Structures' and 'Graph Theory' have similarity 0.3834 and overlap ratio 0.0000
-2024-09-29 22:54:28,170 - DEBUG - Preprocessed and cached sentence: 'Algorithms solve complex problems' -> 'algorithm solve complex problem', avg_word_length: 7.0
-2024-09-29 22:54:28,170 - DEBUG - Preprocessed and cached sentence: 'Divide and conquer is a useful technique' -> 'divide conquer useful technique', avg_word_length: 7.0
-2024-09-29 22:54:28,170 - DEBUG - Preprocessed and cached sentence: 'Algorithm complexity matters' -> 'algorithm complexity matter', avg_word_length: 8.333333333333334
-2024-09-29 22:54:28,170 - DEBUG - Found 3 unique preprocessed bullets in header group 'Intro to Algorithms'.
-2024-09-29 22:54:28,170 - INFO - Generating embeddings for bullets in header 'Intro to Algorithms' (Group 1/6)...
-2024-09-29 22:54:28,170 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,238 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,238 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,238 - DEBUG - Generated and cached embedding for bullet: 'algorithm solve complex problem'
-2024-09-29 22:54:28,238 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,257 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,257 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,257 - DEBUG - Generated and cached embedding for bullet: 'algorithm complexity matter'
-2024-09-29 22:54:28,257 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,278 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,278 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,278 - DEBUG - Generated and cached embedding for bullet: 'divide conquer useful technique'
-2024-09-29 22:54:28,278 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
-2024-09-29 22:54:28,278 - DEBUG - Processing sentence 1: 'Algorithms solve complex problems' from note 2, sentence 1
-2024-09-29 22:54:28,278 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
-2024-09-29 22:54:28,278 - INFO - Retained sentence: 'Algorithms solve complex problems'
-2024-09-29 22:54:28,278 - DEBUG - Processing sentence 2: 'Divide and conquer is a useful technique' from note 2, sentence 2
-2024-09-29 22:54:28,279 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
-2024-09-29 22:54:28,280 - INFO - Retained sentence: 'Divide and conquer is a useful technique'
-2024-09-29 22:54:28,280 - DEBUG - Processing sentence 3: 'Algorithm complexity matters' from note 2, sentence 3
-2024-09-29 22:54:28,280 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 3.
-2024-09-29 22:54:28,280 - INFO - Retained sentence: 'Algorithm complexity matters'
-2024-09-29 22:54:28,280 - INFO - Total retained sentences after deduplication: 3
-2024-09-29 22:54:28,280 - DEBUG - Preprocessed and cached sentence: 'Quick sort is fast' -> 'quick sort fast', avg_word_length: 4.333333333333333
-2024-09-29 22:54:28,280 - DEBUG - Preprocessed and cached sentence: 'Merge sort is stable' -> 'merge sort stable', avg_word_length: 5.0
-2024-09-29 22:54:28,280 - DEBUG - Preprocessed and cached sentence: 'Bubble sort is simple but slow' -> 'bubble sort simple slow', avg_word_length: 5.0
-2024-09-29 22:54:28,280 - DEBUG - Found 3 unique preprocessed bullets in header group 'Sorting'.
-2024-09-29 22:54:28,280 - INFO - Generating embeddings for bullets in header 'Sorting' (Group 2/6)...
-2024-09-29 22:54:28,280 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,299 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,299 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,299 - DEBUG - Generated and cached embedding for bullet: 'quick sort fast'
-2024-09-29 22:54:28,299 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,319 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,320 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,320 - DEBUG - Generated and cached embedding for bullet: 'bubble sort simple slow'
-2024-09-29 22:54:28,320 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,338 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,338 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,338 - DEBUG - Generated and cached embedding for bullet: 'merge sort stable'
-2024-09-29 22:54:28,338 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
-2024-09-29 22:54:28,339 - DEBUG - Processing sentence 1: 'Quick sort is fast' from note 2, sentence 1
-2024-09-29 22:54:28,339 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
-2024-09-29 22:54:28,339 - INFO - Retained sentence: 'Quick sort is fast'
-2024-09-29 22:54:28,339 - DEBUG - Processing sentence 2: 'Merge sort is stable' from note 2, sentence 2
-2024-09-29 22:54:28,339 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
-2024-09-29 22:54:28,339 - INFO - Retained sentence: 'Merge sort is stable'
-2024-09-29 22:54:28,339 - DEBUG - Processing sentence 3: 'Bubble sort is simple but slow' from note 2, sentence 3
-2024-09-29 22:54:28,339 - DEBUG - Comparing with retained sentence: 'Quick sort is fast' | Similarity: 0.7411 | Overlap Ratio: 0.2500
-2024-09-29 22:54:28,339 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 3.
-2024-09-29 22:54:28,339 - INFO - Retained sentence: 'Bubble sort is simple but slow'
-2024-09-29 22:54:28,339 - INFO - Total retained sentences after deduplication: 3
-2024-09-29 22:54:28,339 - DEBUG - Preprocessed and cached sentence: 'I like to eat pie and cake' -> 'like eat pie cake', avg_word_length: 3.5
-2024-09-29 22:54:28,339 - DEBUG - Preprocessed and cached sentence: 'the mongols were cool' -> 'mongol cool', avg_word_length: 5.0
-2024-09-29 22:54:28,339 - DEBUG - Preprocessed and cached sentence: 'i think today is great' -> 'think today great', avg_word_length: 5.0
-2024-09-29 22:54:28,339 - DEBUG - Found 3 unique preprocessed bullets in header group 'Section 1 The Mongols'.
-2024-09-29 22:54:28,339 - INFO - Generating embeddings for bullets in header 'Section 1 The Mongols' (Group 3/6)...
-2024-09-29 22:54:28,339 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,359 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,359 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,359 - DEBUG - Generated and cached embedding for bullet: 'like eat pie cake'
-2024-09-29 22:54:28,359 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,376 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,376 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,376 - DEBUG - Generated and cached embedding for bullet: 'mongol cool'
-2024-09-29 22:54:28,376 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,395 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,395 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,395 - DEBUG - Generated and cached embedding for bullet: 'think today great'
-2024-09-29 22:54:28,395 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
-2024-09-29 22:54:28,395 - DEBUG - Processing sentence 1: 'I like to eat pie and cake' from note 3, sentence 1
-2024-09-29 22:54:28,395 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
-2024-09-29 22:54:28,395 - INFO - Retained sentence: 'I like to eat pie and cake'
-2024-09-29 22:54:28,395 - DEBUG - Processing sentence 2: 'the mongols were cool' from note 3, sentence 2
-2024-09-29 22:54:28,395 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
-2024-09-29 22:54:28,395 - INFO - Retained sentence: 'the mongols were cool'
-2024-09-29 22:54:28,395 - DEBUG - Processing sentence 3: 'i think today is great' from note 3, sentence 3
-2024-09-29 22:54:28,395 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 3.
-2024-09-29 22:54:28,395 - INFO - Retained sentence: 'i think today is great'
-2024-09-29 22:54:28,396 - INFO - Total retained sentences after deduplication: 3
-2024-09-29 22:54:28,396 - DEBUG - Preprocessed and cached sentence: 'Trees are hierarchical structures' -> 'tree hierarchical structure', avg_word_length: 8.333333333333334
-2024-09-29 22:54:28,396 - DEBUG - Preprocessed and cached sentence: 'Graphs can represent networks' -> 'graph represent network', avg_word_length: 7.0
-2024-09-29 22:54:28,396 - DEBUG - Preprocessed and cached sentence: 'Hash tables provide fast lookups' -> 'hash table provide fast lookup', avg_word_length: 5.2
-2024-09-29 22:54:28,396 - DEBUG - Preprocessed and cached sentence: 'Trees are important' -> 'tree important', avg_word_length: 6.5
-2024-09-29 22:54:28,396 - DEBUG - Preprocessed and cached sentence: 'Graphs represent relations' -> 'graph represent relation', avg_word_length: 7.333333333333333
-2024-09-29 22:54:28,396 - DEBUG - Preprocessed and cached sentence: 'Hash maps store key-value pairs' -> 'hash map store key value pair', avg_word_length: 4.0
-2024-09-29 22:54:28,396 - DEBUG - Found 6 unique preprocessed bullets in header group 'Advanced Data Structures'.
-2024-09-29 22:54:28,396 - INFO - Generating embeddings for bullets in header 'Advanced Data Structures' (Group 4/6)...
-2024-09-29 22:54:28,396 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,413 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,413 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,413 - DEBUG - Generated and cached embedding for bullet: 'tree important'
-2024-09-29 22:54:28,413 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,430 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,430 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,430 - DEBUG - Generated and cached embedding for bullet: 'graph represent network'
-2024-09-29 22:54:28,430 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,530 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,530 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,530 - DEBUG - Generated and cached embedding for bullet: 'hash map store key value pair'
-2024-09-29 22:54:28,530 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,547 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,547 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,547 - DEBUG - Generated and cached embedding for bullet: 'graph represent relation'
-2024-09-29 22:54:28,547 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,563 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,564 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,564 - DEBUG - Generated and cached embedding for bullet: 'tree hierarchical structure'
-2024-09-29 22:54:28,564 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,587 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,587 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,587 - DEBUG - Generated and cached embedding for bullet: 'hash table provide fast lookup'
-2024-09-29 22:54:28,587 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
-2024-09-29 22:54:28,587 - DEBUG - Processing sentence 1: 'Trees are hierarchical structures' from note 4, sentence 1
-2024-09-29 22:54:28,587 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
-2024-09-29 22:54:28,587 - INFO - Retained sentence: 'Trees are hierarchical structures'
-2024-09-29 22:54:28,587 - DEBUG - Processing sentence 2: 'Graphs can represent networks' from note 4, sentence 2
-2024-09-29 22:54:28,587 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
-2024-09-29 22:54:28,587 - INFO - Retained sentence: 'Graphs can represent networks'
-2024-09-29 22:54:28,587 - DEBUG - Processing sentence 3: 'Hash tables provide fast lookups' from note 4, sentence 3
-2024-09-29 22:54:28,587 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 3.
-2024-09-29 22:54:28,587 - INFO - Retained sentence: 'Hash tables provide fast lookups'
-2024-09-29 22:54:28,587 - DEBUG - Processing sentence 4: 'Trees are important' from note 5, sentence 1
-2024-09-29 22:54:28,587 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 4.
-2024-09-29 22:54:28,587 - INFO - Retained sentence: 'Trees are important'
-2024-09-29 22:54:28,587 - DEBUG - Processing sentence 5: 'Graphs represent relations' from note 5, sentence 2
-2024-09-29 22:54:28,587 - DEBUG - Comparing with retained sentence: 'Graphs can represent networks' | Similarity: 0.7029 | Overlap Ratio: 0.6667
-2024-09-29 22:54:28,587 - INFO - Replacing retained sentence 'Graphs can represent networks' (avg word length 7.00) with 'Graphs represent relations' (avg word length 7.33) due to higher average word length.
-2024-09-29 22:54:28,587 - DEBUG - Processing sentence 6: 'Hash maps store key-value pairs' from note 5, sentence 3
-2024-09-29 22:54:28,588 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 5.
-2024-09-29 22:54:28,588 - INFO - Retained sentence: 'Hash maps store key-value pairs'
-2024-09-29 22:54:28,588 - INFO - Total retained sentences after deduplication: 5
-2024-09-29 22:54:28,588 - DEBUG - Preprocessed and cached sentence: 'Dijkstra's algorithm finds shortest paths' -> 'dijkstra algorithm find shortest path', avg_word_length: 6.6
-2024-09-29 22:54:28,588 - DEBUG - Preprocessed and cached sentence: 'Depth-first search explores as far as possible along each branch' -> 'depth first search explores far possible along branch', avg_word_length: 5.75
-2024-09-29 22:54:28,588 - DEBUG - Found 2 unique preprocessed bullets in header group 'Graph Algorithms'.
-2024-09-29 22:54:28,588 - INFO - Generating embeddings for bullets in header 'Graph Algorithms' (Group 5/6)...
-2024-09-29 22:54:28,588 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,694 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,694 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,695 - DEBUG - Generated and cached embedding for bullet: 'depth first search explores far possible along branch'
-2024-09-29 22:54:28,695 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,800 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,800 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,800 - DEBUG - Generated and cached embedding for bullet: 'dijkstra algorithm find shortest path'
-2024-09-29 22:54:28,801 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
-2024-09-29 22:54:28,801 - DEBUG - Processing sentence 1: 'Dijkstra's algorithm finds shortest paths' from note 4, sentence 1
-2024-09-29 22:54:28,801 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
-2024-09-29 22:54:28,801 - INFO - Retained sentence: 'Dijkstra's algorithm finds shortest paths'
-2024-09-29 22:54:28,801 - DEBUG - Processing sentence 2: 'Depth-first search explores as far as possible along each branch' from note 4, sentence 2
-2024-09-29 22:54:28,801 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
-2024-09-29 22:54:28,801 - INFO - Retained sentence: 'Depth-first search explores as far as possible along each branch'
-2024-09-29 22:54:28,801 - INFO - Total retained sentences after deduplication: 2
-2024-09-29 22:54:28,801 - DEBUG - Preprocessed and cached sentence: 'Dijkstra's algorithm computes shortest paths' -> 'dijkstra algorithm computes shortest path', avg_word_length: 7.4
-2024-09-29 22:54:28,801 - DEBUG - Preprocessed and cached sentence: 'Depth-first search is used in various algorithms' -> 'depth first search used various algorithm', avg_word_length: 6.0
-2024-09-29 22:54:28,801 - DEBUG - Found 2 unique preprocessed bullets in header group 'Graph Theory'.
-2024-09-29 22:54:28,801 - INFO - Generating embeddings for bullets in header 'Graph Theory' (Group 6/6)...
-2024-09-29 22:54:28,801 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,818 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,818 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,818 - DEBUG - Generated and cached embedding for bullet: 'depth first search used various algorithm'
-2024-09-29 22:54:28,818 - DEBUG - Generating embeddings for 1 texts.
-2024-09-29 22:54:28,834 - DEBUG - Normalized embeddings to unit vectors.
-2024-09-29 22:54:28,834 - DEBUG - Generated embeddings shape: (1, 768)
-2024-09-29 22:54:28,834 - DEBUG - Generated and cached embedding for bullet: 'dijkstra algorithm computes shortest path'
-2024-09-29 22:54:28,834 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
-2024-09-29 22:54:28,834 - DEBUG - Processing sentence 1: 'Dijkstra's algorithm computes shortest paths' from note 5, sentence 1
-2024-09-29 22:54:28,834 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
-2024-09-29 22:54:28,834 - INFO - Retained sentence: 'Dijkstra's algorithm computes shortest paths'
-2024-09-29 22:54:28,834 - DEBUG - Processing sentence 2: 'Depth-first search is used in various algorithms' from note 5, sentence 2
-2024-09-29 22:54:28,834 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
-2024-09-29 22:54:28,834 - INFO - Retained sentence: 'Depth-first search is used in various algorithms'
-2024-09-29 22:54:28,834 - INFO - Total retained sentences after deduplication: 2
+2024-09-29 23:01:01,540 - DEBUG - Loading file: notes4.json as Note 4
+2024-09-29 23:01:01,540 - DEBUG - Loading file: notes5.json as Note 5
+2024-09-29 23:01:01,541 - DEBUG - Loading file: notes2.json as Note 2
+2024-09-29 23:01:01,541 - DEBUG - Loading file: notes3.json as Note 3
+2024-09-29 23:01:01,541 - INFO - Generating embeddings for headers...
+2024-09-29 23:01:01,541 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:01,795 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:01,795 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:01,795 - DEBUG - Generated and cached embedding for header: 'Intro to Algorithms' with key '2_Intro to Algorithms'
+2024-09-29 23:01:01,795 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:01,941 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:01,941 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:01,941 - DEBUG - Generated and cached embedding for header: 'Sorting' with key '2_Sorting'
+2024-09-29 23:01:01,941 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:02,038 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:02,038 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:02,039 - DEBUG - Generated and cached embedding for header: 'Section 1 The Mongols' with key '3_Section 1 The Mongols'
+2024-09-29 23:01:02,039 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:02,066 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:02,066 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:02,066 - DEBUG - Generated and cached embedding for header: 'Advanced Data Structures' with key '4_Advanced Data Structures'
+2024-09-29 23:01:02,066 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:02,192 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:02,192 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:02,193 - DEBUG - Generated and cached embedding for header: 'Graph Algorithms' with key '4_Graph Algorithms'
+2024-09-29 23:01:02,193 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:02,210 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:02,211 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:02,211 - DEBUG - Generated and cached embedding for header: 'Data Structures' with key '5_Data Structures'
+2024-09-29 23:01:02,211 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:02,228 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:02,228 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:02,228 - DEBUG - Generated and cached embedding for header: 'Graph Theory' with key '5_Graph Theory'
+2024-09-29 23:01:02,229 - INFO - Comparing headers for similarity and overlap...
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Intro to Algorithms' and 'Sorting' have similarity 0.3534 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Intro to Algorithms' and 'Section 1 The Mongols' have similarity 0.1150 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Intro to Algorithms' and 'Advanced Data Structures' have similarity 0.5244 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Intro to Algorithms' and 'Graph Algorithms' have similarity 0.6847 and overlap ratio 0.3333
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Intro to Algorithms' and 'Data Structures' have similarity 0.4147 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Intro to Algorithms' and 'Graph Theory' have similarity 0.3568 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Sorting' and 'Section 1 The Mongols' have similarity 0.1151 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Sorting' and 'Advanced Data Structures' have similarity 0.3012 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Sorting' and 'Graph Algorithms' have similarity 0.2992 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Sorting' and 'Data Structures' have similarity 0.3390 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Sorting' and 'Graph Theory' have similarity 0.2028 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Section 1 The Mongols' and 'Advanced Data Structures' have similarity 0.0556 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Section 1 The Mongols' and 'Graph Algorithms' have similarity 0.1609 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Section 1 The Mongols' and 'Data Structures' have similarity 0.0885 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Section 1 The Mongols' and 'Graph Theory' have similarity 0.2468 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Advanced Data Structures' and 'Graph Algorithms' have similarity 0.4608 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Advanced Data Structures' and 'Data Structures' have similarity 0.9073 and overlap ratio 0.6667
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Advanced Data Structures' and 'Graph Theory' have similarity 0.4192 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Graph Algorithms' and 'Data Structures' have similarity 0.3577 and overlap ratio 0.0000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Graph Algorithms' and 'Graph Theory' have similarity 0.7857 and overlap ratio 0.5000
+2024-09-29 23:01:02,229 - DEBUG - Headers 'Data Structures' and 'Graph Theory' have similarity 0.3834 and overlap ratio 0.0000
+2024-09-29 23:01:04,054 - DEBUG - Preprocessed and cached sentence: 'Algorithms solve complex problems' -> 'algorithm solve complex problem', avg_word_length: 7.0
+2024-09-29 23:01:04,054 - DEBUG - Preprocessed and cached sentence: 'Divide and conquer is a useful technique' -> 'divide conquer useful technique', avg_word_length: 7.0
+2024-09-29 23:01:04,054 - DEBUG - Preprocessed and cached sentence: 'Algorithm complexity matters' -> 'algorithm complexity matter', avg_word_length: 8.333333333333334
+2024-09-29 23:01:04,055 - DEBUG - Found 3 unique preprocessed bullets in header group 'Intro to Algorithms'.
+2024-09-29 23:01:04,055 - INFO - Generating embeddings for bullets in header 'Intro to Algorithms' (Group 1/6)...
+2024-09-29 23:01:04,055 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,115 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,115 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,115 - DEBUG - Generated and cached embedding for bullet: 'algorithm complexity matter'
+2024-09-29 23:01:04,115 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,135 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,135 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,135 - DEBUG - Generated and cached embedding for bullet: 'divide conquer useful technique'
+2024-09-29 23:01:04,135 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,155 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,155 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,155 - DEBUG - Generated and cached embedding for bullet: 'algorithm solve complex problem'
+2024-09-29 23:01:04,156 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
+2024-09-29 23:01:04,156 - DEBUG - Processing sentence 1: 'Algorithms solve complex problems' from note 2, sentence 1
+2024-09-29 23:01:04,156 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
+2024-09-29 23:01:04,156 - INFO - Retained sentence: 'Algorithms solve complex problems'
+2024-09-29 23:01:04,156 - DEBUG - Processing sentence 2: 'Divide and conquer is a useful technique' from note 2, sentence 2
+2024-09-29 23:01:04,160 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
+2024-09-29 23:01:04,160 - INFO - Retained sentence: 'Divide and conquer is a useful technique'
+2024-09-29 23:01:04,160 - DEBUG - Processing sentence 3: 'Algorithm complexity matters' from note 2, sentence 3
+2024-09-29 23:01:04,160 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 3.
+2024-09-29 23:01:04,160 - INFO - Retained sentence: 'Algorithm complexity matters'
+2024-09-29 23:01:04,160 - INFO - Total retained sentences after deduplication: 3
+2024-09-29 23:01:04,161 - DEBUG - Preprocessed and cached sentence: 'Quick sort is fast' -> 'quick sort fast', avg_word_length: 4.333333333333333
+2024-09-29 23:01:04,161 - DEBUG - Preprocessed and cached sentence: 'Merge sort is stable' -> 'merge sort stable', avg_word_length: 5.0
+2024-09-29 23:01:04,161 - DEBUG - Preprocessed and cached sentence: 'Bubble sort is simple but slow' -> 'bubble sort simple slow', avg_word_length: 5.0
+2024-09-29 23:01:04,161 - DEBUG - Found 3 unique preprocessed bullets in header group 'Sorting'.
+2024-09-29 23:01:04,161 - INFO - Generating embeddings for bullets in header 'Sorting' (Group 2/6)...
+2024-09-29 23:01:04,161 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,181 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,181 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,181 - DEBUG - Generated and cached embedding for bullet: 'bubble sort simple slow'
+2024-09-29 23:01:04,181 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,201 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,201 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,201 - DEBUG - Generated and cached embedding for bullet: 'merge sort stable'
+2024-09-29 23:01:04,201 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,220 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,220 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,220 - DEBUG - Generated and cached embedding for bullet: 'quick sort fast'
+2024-09-29 23:01:04,220 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
+2024-09-29 23:01:04,220 - DEBUG - Processing sentence 1: 'Quick sort is fast' from note 2, sentence 1
+2024-09-29 23:01:04,220 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
+2024-09-29 23:01:04,220 - INFO - Retained sentence: 'Quick sort is fast'
+2024-09-29 23:01:04,220 - DEBUG - Processing sentence 2: 'Merge sort is stable' from note 2, sentence 2
+2024-09-29 23:01:04,220 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
+2024-09-29 23:01:04,220 - INFO - Retained sentence: 'Merge sort is stable'
+2024-09-29 23:01:04,220 - DEBUG - Processing sentence 3: 'Bubble sort is simple but slow' from note 2, sentence 3
+2024-09-29 23:01:04,220 - DEBUG - Comparing with retained sentence: 'Quick sort is fast' | Similarity: 0.7411 | Overlap Ratio: 0.2500
+2024-09-29 23:01:04,220 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 3.
+2024-09-29 23:01:04,220 - INFO - Retained sentence: 'Bubble sort is simple but slow'
+2024-09-29 23:01:04,220 - INFO - Total retained sentences after deduplication: 3
+2024-09-29 23:01:04,220 - DEBUG - Preprocessed and cached sentence: 'I like to eat pie and cake' -> 'like eat pie cake', avg_word_length: 3.5
+2024-09-29 23:01:04,220 - DEBUG - Preprocessed and cached sentence: 'the mongols were cool' -> 'mongol cool', avg_word_length: 5.0
+2024-09-29 23:01:04,220 - DEBUG - Preprocessed and cached sentence: 'i think today is great' -> 'think today great', avg_word_length: 5.0
+2024-09-29 23:01:04,220 - DEBUG - Found 3 unique preprocessed bullets in header group 'Section 1 The Mongols'.
+2024-09-29 23:01:04,220 - INFO - Generating embeddings for bullets in header 'Section 1 The Mongols' (Group 3/6)...
+2024-09-29 23:01:04,220 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,238 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,238 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,239 - DEBUG - Generated and cached embedding for bullet: 'think today great'
+2024-09-29 23:01:04,239 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,258 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,258 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,258 - DEBUG - Generated and cached embedding for bullet: 'mongol cool'
+2024-09-29 23:01:04,258 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,279 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,279 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,279 - DEBUG - Generated and cached embedding for bullet: 'like eat pie cake'
+2024-09-29 23:01:04,279 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
+2024-09-29 23:01:04,279 - DEBUG - Processing sentence 1: 'I like to eat pie and cake' from note 3, sentence 1
+2024-09-29 23:01:04,279 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
+2024-09-29 23:01:04,279 - INFO - Retained sentence: 'I like to eat pie and cake'
+2024-09-29 23:01:04,279 - DEBUG - Processing sentence 2: 'the mongols were cool' from note 3, sentence 2
+2024-09-29 23:01:04,279 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
+2024-09-29 23:01:04,279 - INFO - Retained sentence: 'the mongols were cool'
+2024-09-29 23:01:04,279 - DEBUG - Processing sentence 3: 'i think today is great' from note 3, sentence 3
+2024-09-29 23:01:04,279 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 3.
+2024-09-29 23:01:04,279 - INFO - Retained sentence: 'i think today is great'
+2024-09-29 23:01:04,279 - INFO - Total retained sentences after deduplication: 3
+2024-09-29 23:01:04,279 - DEBUG - Preprocessed and cached sentence: 'Trees are hierarchical structures' -> 'tree hierarchical structure', avg_word_length: 8.333333333333334
+2024-09-29 23:01:04,279 - DEBUG - Preprocessed and cached sentence: 'Graphs can represent networks' -> 'graph represent network', avg_word_length: 7.0
+2024-09-29 23:01:04,279 - DEBUG - Preprocessed and cached sentence: 'Hash tables provide fast lookups' -> 'hash table provide fast lookup', avg_word_length: 5.2
+2024-09-29 23:01:04,280 - DEBUG - Preprocessed and cached sentence: 'Trees are important' -> 'tree important', avg_word_length: 6.5
+2024-09-29 23:01:04,280 - DEBUG - Preprocessed and cached sentence: 'Graphs represent relations' -> 'graph represent relation', avg_word_length: 7.333333333333333
+2024-09-29 23:01:04,280 - DEBUG - Preprocessed and cached sentence: 'Hash maps store key-value pairs' -> 'hash map store key value pair', avg_word_length: 4.0
+2024-09-29 23:01:04,280 - DEBUG - Found 6 unique preprocessed bullets in header group 'Advanced Data Structures'.
+2024-09-29 23:01:04,280 - INFO - Generating embeddings for bullets in header 'Advanced Data Structures' (Group 4/6)...
+2024-09-29 23:01:04,280 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,300 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,300 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,300 - DEBUG - Generated and cached embedding for bullet: 'tree hierarchical structure'
+2024-09-29 23:01:04,300 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,318 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,318 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,318 - DEBUG - Generated and cached embedding for bullet: 'graph represent network'
+2024-09-29 23:01:04,318 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,424 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,424 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,424 - DEBUG - Generated and cached embedding for bullet: 'hash map store key value pair'
+2024-09-29 23:01:04,424 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,448 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,448 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,448 - DEBUG - Generated and cached embedding for bullet: 'graph represent relation'
+2024-09-29 23:01:04,448 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,466 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,466 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,466 - DEBUG - Generated and cached embedding for bullet: 'hash table provide fast lookup'
+2024-09-29 23:01:04,466 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,483 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,483 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,484 - DEBUG - Generated and cached embedding for bullet: 'tree important'
+2024-09-29 23:01:04,484 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
+2024-09-29 23:01:04,484 - DEBUG - Processing sentence 1: 'Trees are hierarchical structures' from note 4, sentence 1
+2024-09-29 23:01:04,484 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
+2024-09-29 23:01:04,484 - INFO - Retained sentence: 'Trees are hierarchical structures'
+2024-09-29 23:01:04,484 - DEBUG - Processing sentence 2: 'Graphs can represent networks' from note 4, sentence 2
+2024-09-29 23:01:04,484 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
+2024-09-29 23:01:04,484 - INFO - Retained sentence: 'Graphs can represent networks'
+2024-09-29 23:01:04,484 - DEBUG - Processing sentence 3: 'Hash tables provide fast lookups' from note 4, sentence 3
+2024-09-29 23:01:04,484 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 3.
+2024-09-29 23:01:04,484 - INFO - Retained sentence: 'Hash tables provide fast lookups'
+2024-09-29 23:01:04,484 - DEBUG - Processing sentence 4: 'Trees are important' from note 5, sentence 1
+2024-09-29 23:01:04,484 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 4.
+2024-09-29 23:01:04,484 - INFO - Retained sentence: 'Trees are important'
+2024-09-29 23:01:04,484 - DEBUG - Processing sentence 5: 'Graphs represent relations' from note 5, sentence 2
+2024-09-29 23:01:04,484 - DEBUG - Comparing with retained sentence: 'Graphs can represent networks' | Similarity: 0.7029 | Overlap Ratio: 0.6667
+2024-09-29 23:01:04,484 - INFO - Replacing retained sentence 'Graphs can represent networks' (avg word length 7.00) with 'Graphs represent relations' (avg word length 7.33) due to higher average word length.
+2024-09-29 23:01:04,484 - DEBUG - Processing sentence 6: 'Hash maps store key-value pairs' from note 5, sentence 3
+2024-09-29 23:01:04,484 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 5.
+2024-09-29 23:01:04,484 - INFO - Retained sentence: 'Hash maps store key-value pairs'
+2024-09-29 23:01:04,484 - INFO - Total retained sentences after deduplication: 5
+2024-09-29 23:01:04,484 - DEBUG - Preprocessed and cached sentence: 'Dijkstra's algorithm finds shortest paths' -> 'dijkstra algorithm find shortest path', avg_word_length: 6.6
+2024-09-29 23:01:04,484 - DEBUG - Preprocessed and cached sentence: 'Depth-first search explores as far as possible along each branch' -> 'depth first search explores far possible along branch', avg_word_length: 5.75
+2024-09-29 23:01:04,484 - DEBUG - Found 2 unique preprocessed bullets in header group 'Graph Algorithms'.
+2024-09-29 23:01:04,484 - INFO - Generating embeddings for bullets in header 'Graph Algorithms' (Group 5/6)...
+2024-09-29 23:01:04,484 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,599 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,599 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,599 - DEBUG - Generated and cached embedding for bullet: 'depth first search explores far possible along branch'
+2024-09-29 23:01:04,599 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,708 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,708 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,708 - DEBUG - Generated and cached embedding for bullet: 'dijkstra algorithm find shortest path'
+2024-09-29 23:01:04,708 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
+2024-09-29 23:01:04,708 - DEBUG - Processing sentence 1: 'Dijkstra's algorithm finds shortest paths' from note 4, sentence 1
+2024-09-29 23:01:04,708 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
+2024-09-29 23:01:04,708 - INFO - Retained sentence: 'Dijkstra's algorithm finds shortest paths'
+2024-09-29 23:01:04,708 - DEBUG - Processing sentence 2: 'Depth-first search explores as far as possible along each branch' from note 4, sentence 2
+2024-09-29 23:01:04,708 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
+2024-09-29 23:01:04,708 - INFO - Retained sentence: 'Depth-first search explores as far as possible along each branch'
+2024-09-29 23:01:04,708 - INFO - Total retained sentences after deduplication: 2
+2024-09-29 23:01:04,709 - DEBUG - Preprocessed and cached sentence: 'Dijkstra's algorithm computes shortest paths' -> 'dijkstra algorithm computes shortest path', avg_word_length: 7.4
+2024-09-29 23:01:04,709 - DEBUG - Preprocessed and cached sentence: 'Depth-first search is used in various algorithms' -> 'depth first search used various algorithm', avg_word_length: 6.0
+2024-09-29 23:01:04,709 - DEBUG - Found 2 unique preprocessed bullets in header group 'Graph Theory'.
+2024-09-29 23:01:04,709 - INFO - Generating embeddings for bullets in header 'Graph Theory' (Group 6/6)...
+2024-09-29 23:01:04,709 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,733 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,733 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,733 - DEBUG - Generated and cached embedding for bullet: 'dijkstra algorithm computes shortest path'
+2024-09-29 23:01:04,733 - DEBUG - Generating embeddings for 1 texts.
+2024-09-29 23:01:04,750 - DEBUG - Normalized embeddings to unit vectors.
+2024-09-29 23:01:04,750 - DEBUG - Generated embeddings shape: (1, 768)
+2024-09-29 23:01:04,750 - DEBUG - Generated and cached embedding for bullet: 'depth first search used various algorithm'
+2024-09-29 23:01:04,750 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
+2024-09-29 23:01:04,750 - DEBUG - Processing sentence 1: 'Dijkstra's algorithm computes shortest paths' from note 5, sentence 1
+2024-09-29 23:01:04,750 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
+2024-09-29 23:01:04,750 - INFO - Retained sentence: 'Dijkstra's algorithm computes shortest paths'
+2024-09-29 23:01:04,750 - DEBUG - Processing sentence 2: 'Depth-first search is used in various algorithms' from note 5, sentence 2
+2024-09-29 23:01:04,750 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
+2024-09-29 23:01:04,750 - INFO - Retained sentence: 'Depth-first search is used in various algorithms'
+2024-09-29 23:01:04,750 - INFO - Total retained sentences after deduplication: 2

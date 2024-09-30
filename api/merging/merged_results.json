@@ -1,0 +1,234 @@
+{
+    "headers": [
+        {
+            "header_id": 0,
+            "accepted_header_name": "What Are Algorithms",
+            "note_id": "notes2.json",
+            "conflicting_headers": [
+                {
+                    "note_id": "notes3.json",
+                    "header_id": 4,
+                    "header_name": "Introduction to Algorithms",
+                    "similarity": 0.7643935762142715,
+                    "overlap_ratio": 0.3333333333333333
+                }
+            ],
+            "bullets": [
+                {
+                    "bullet_id": "notes2.json_1",
+                    "accepted_bullet_text": "An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations",
+                    "conflicting_bullets": []
+                },
+                {
+                    "bullet_id": "notes3.json_2",
+                    "accepted_bullet_text": "Time Complexity: Refers to how long an algorithm takes to execute as the input size changes. Examples of common complexities are:",
+                    "conflicting_bullets": [
+                        {
+                            "note_id": "notes2.json",
+                            "bullet_id": 2,
+                            "text": "Time Complexity: This measures the time it takes for an algorithm to run, depending on the size of the input data. Common examples include:",
+                            "similarity": 0.7595009803771973,
+                            "overlap_ratio": 0.6153846153846154
+                        }
+                    ]
+                },
+                {
+                    "bullet_id": "notes3.json_3",
+                    "accepted_bullet_text": "O(1): Constant execution time",
+                    "conflicting_bullets": [
+                        {
+                            "note_id": "notes2.json",
+                            "bullet_id": 3,
+                            "text": "O(1): Constant time",
+                            "similarity": 0.7459843158721924,
+                            "overlap_ratio": 0.75
+                        }
+                    ]
+                },
+                {
+                    "bullet_id": "notes2.json_4",
+                    "accepted_bullet_text": "O(n): Linear time",
+                    "conflicting_bullets": []
+                },
+                {
+                    "bullet_id": "notes2.json_5",
+                    "accepted_bullet_text": "O(n\u00b2): Quadratic time",
+                    "conflicting_bullets": []
+                },
+                {
+                    "bullet_id": "notes2.json_6",
+                    "accepted_bullet_text": "Space Complexity: This measures how much memory the algorithm requires as the input size increases",
+                    "conflicting_bullets": [
+                        {
+                            "note_id": "notes3.json",
+                            "bullet_id": 6,
+                            "text": "Space Complexity: This measures the memory usage of an algorithm relative to the input size",
+                            "similarity": 0.7505821585655212,
+                            "overlap_ratio": 0.7
+                        }
+                    ]
+                },
+                {
+                    "bullet_id": "notes3.json_1",
+                    "accepted_bullet_text": "An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving",
+                    "conflicting_bullets": []
+                },
+                {
+                    "bullet_id": "notes3.json_5",
+                    "accepted_bullet_text": "O(n\u00b2): Execution time grows quadratically",
+                    "conflicting_bullets": [
+                        {
+                            "note_id": "notes3.json",
+                            "bullet_id": 4,
+                            "text": "O(n): Execution time grows linearly with input size",
+                            "similarity": 0.7743427753448486,
+                            "overlap_ratio": 0.42857142857142855
+                        }
+                    ]
+                },
+                {
+                    "bullet_id": "notes3.json_1",
+                    "accepted_bullet_text": "Sorting algorithms reorder data in a specified way, typically in ascending or descending order. Common sorting algorithms include:",
+                    "conflicting_bullets": []
+                },
+                {
+                    "bullet_id": "notes3.json_2",
+                    "accepted_bullet_text": "Bubble Sort: This algorithm compares and swaps adjacent elements repeatedly until the entire list is sorted. Time complexity: O(n\u00b2)",
+                    "conflicting_bullets": []
+                },
+                {
+                    "bullet_id": "notes3.json_3",
+                    "accepted_bullet_text": "Merge Sort: It uses a divide-and-conquer approach to split data into smaller arrays, sort them, and then merge them back together. Time complexity: O(n log n)",
+                    "conflicting_bullets": []
+                }
+            ]
+        },
+        {
+            "header_id": 1,
+            "accepted_header_name": "Searching Methods",
+            "note_id": "notes2.json",
+            "conflicting_headers": [],
+            "bullets": [
+                {
+                    "bullet_id": "notes2.json_1",
+                    "accepted_bullet_text": "Searching algorithms help find specific elements in a data structure. Two common methods include:",
+                    "conflicting_bullets": []
+                },
+                {
+                    "bullet_id": "notes2.json_3",
+                    "accepted_bullet_text": "Binary Search: Efficiently finds elements in a sorted array by halving the search space at each step. Time complexity: O(log n)",
+                    "conflicting_bullets": [
+                        {
+                            "note_id": "notes2.json",
+                            "bullet_id": 2,
+                            "text": "Linear Search: Iterates through each element one by one to find the target. Time complexity: O(n)",
+                            "similarity": 0.7400341033935547,
+                            "overlap_ratio": 0.42857142857142855
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header_id": 2,
+            "accepted_header_name": "Types of Data Structures",
+            "note_id": "notes2.json",
+            "conflicting_headers": [
+                {
+                    "note_id": "notes3.json",
+                    "header_id": 5,
+                    "header_name": "Common Data Structures",
+                    "similarity": 0.7568905724830002,
+                    "overlap_ratio": 0.5
+                }
+            ],
+            "bullets": [
+                {
+                    "bullet_id": "notes2.json_1",
+                    "accepted_bullet_text": "Data structures refer to various ways of organizing and storing data, allowing efficient access and modification of the data",
+                    "conflicting_bullets": []
+                },
+                {
+                    "bullet_id": "notes3.json_2",
+                    "accepted_bullet_text": "Arrays: Ordered collections of elements stored in contiguous memory. Arrays offer constant-time element access but require resizing to accommodate larger data",
+                    "conflicting_bullets": [
+                        {
+                            "note_id": "notes2.json",
+                            "bullet_id": 2,
+                            "text": "Arrays: A linear collection of elements, where each element is stored in contiguous memory. Arrays allow fast access to elements by their index",
+                            "similarity": 0.7569954991340637,
+                            "overlap_ratio": 0.4375
+                        }
+                    ]
+                },
+                {
+                    "bullet_id": "notes2.json_3",
+                    "accepted_bullet_text": "Linked Lists: A sequence of nodes, where each node holds data and a reference to the next node. They allow dynamic resizing and efficient insertions or deletions",
+                    "conflicting_bullets": [
+                        {
+                            "note_id": "notes3.json",
+                            "bullet_id": 3,
+                            "text": "Linked Lists: Composed of nodes, where each node holds data and a link to the next node. Linked lists allow dynamic sizing and are ideal for scenarios where data is frequently added or removed",
+                            "similarity": 0.7684321403503418,
+                            "overlap_ratio": 0.5
+                        }
+                    ]
+                },
+                {
+                    "bullet_id": "notes3.json_1",
+                    "accepted_bullet_text": "Data structures are frameworks used to store and manage data, optimizing access and modifications",
+                    "conflicting_bullets": []
+                }
+            ]
+        },
+        {
+            "header_id": 3,
+            "accepted_header_name": "Common Sorting Techniques",
+            "note_id": "notes2.json",
+            "conflicting_headers": [],
+            "bullets": [
+                {
+                    "bullet_id": "notes2.json_1",
+                    "accepted_bullet_text": "Sorting algorithms are methods to rearrange data in a specific order, such as ascending or descending. Two popular sorting algorithms are:",
+                    "conflicting_bullets": []
+                },
+                {
+                    "bullet_id": "notes2.json_2",
+                    "accepted_bullet_text": "Bubble Sort: Repeatedly swaps adjacent elements if they are in the wrong order. Time complexity: O(n\u00b2)",
+                    "conflicting_bullets": []
+                },
+                {
+                    "bullet_id": "notes2.json_3",
+                    "accepted_bullet_text": "Merge Sort: A divide-and-conquer algorithm that splits the array into halves, recursively sorts them, and merges them back together. Time complexity: O(n log n)",
+                    "conflicting_bullets": []
+                }
+            ]
+        },
+        {
+            "header_id": 7,
+            "accepted_header_name": "Efficient Search Techniques",
+            "note_id": "notes3.json",
+            "conflicting_headers": [],
+            "bullets": [
+                {
+                    "bullet_id": "notes3.json_1",
+                    "accepted_bullet_text": "Search algorithms are used to locate elements in data structures. Two widely used search algorithms are:",
+                    "conflicting_bullets": []
+                },
+                {
+                    "bullet_id": "notes3.json_2",
+                    "accepted_bullet_text": "Linear Search: Sequentially examines each element in a list until the target value is found. Time complexity: O(n)",
+                    "conflicting_bullets": [
+                        {
+                            "note_id": "notes3.json",
+                            "bullet_id": 3,
+                            "text": "Binary Search: This algorithm works on sorted arrays, repeatedly dividing the search range in half until the target value is found. Time complexity: O(log n)",
+                            "similarity": 0.7259095311164856,
+                            "overlap_ratio": 0.4117647058823529
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

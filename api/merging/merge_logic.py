@@ -1,8 +1,8 @@
 # merge_logic.py
 
 import logging
-import re
 import os
+import re
 import json
 import numpy as np
 from preprocess import preprocess_sentence, preprocess_header
@@ -35,34 +35,40 @@ def load_notes_from_files(directory="test_files"):
         notes (list): List of notes with headers and bullets.
     """
     notes = []
-    file_pattern = re.compile(r'^notes(\d*)\.json$')  # Matches 'notes.json', 'notes1.json', etc.
     for file_name in os.listdir(directory):
-        match = file_pattern.match(file_name)
-        if match and os.path.isfile(os.path.join(directory, file_name)):
-            note_num = match.group(1)
-            note_num = int(note_num) if note_num else 0  # Start from 0 if no number
-            logging.debug(f"Loading file: {file_name} as Note {note_num}")
+        if file_name.endswith('.json') and os.path.isfile(os.path.join(directory, file_name)):
+            logging.debug(f"Loading file: {file_name}")
             with open(os.path.join(directory, file_name), 'r', encoding='utf-8') as f:
-                note_data = json.load(f)
-                headers = []
-                # Assuming note_data is a list of sections
-                for section in note_data:
-                    header_name = section.get('text', 'Default Header')
-                    bullets_text = section.get('section-text', '')
-                    bullets = [line.strip('- ').strip() for line in bullets_text.split('\n') if line.strip().startswith('-')]
-                    headers.append({
-                        'header_name': header_name,
-                        'bullets': bullets
+                data = json.load(f)
+                note_num = file_name  # Or generate a note number
+                # Now data is the dictionary with the structure shown in the sample
+                for pdf_key, pdf_data in data.items():
+                    pdf_id = pdf_data.get('pdf_id', pdf_key)
+                    headers = []
+                    for header in pdf_data.get('headers', []):
+                        header_name = header.get('text', 'Default Header')
+                        bullets = header.get('section_text', [])
+                        if isinstance(bullets, list):
+                            bullets_list = bullets
+                        elif isinstance(bullets, str):
+                            bullets_list = [bullets]
+                        else:
+                            bullets_list = []
+                        bullets_list = [bullet.strip() for bullet in bullets_list if bullet.strip()]
+                        headers.append({
+                            'header_name': header_name,
+                            'bullets': bullets_list
+                        })
+                    notes.append({
+                        'note_num': note_num,
+                        'headers': headers
                     })
-                notes.append({
-                    'note_num': note_num,
-                    'headers': headers
-                })
     # Sort notes based on note_num to maintain order
     notes.sort(key=lambda x: x['note_num'])
     return notes
 
-def merge_multiple_notes(notes, similarity_threshold=0.7, overlap_threshold=0.3, header_similarity_threshold=0.8):
+def merge_multiple_notes(notes, similarity_threshold=0.7, overlap_threshold=0.4,
+                         header_similarity_threshold=0.75, header_overlap_threshold=0.3):
     """
     Merges multiple notes by deduplicating their bullets under similar headers.
 
@@ -71,6 +77,7 @@ def merge_multiple_notes(notes, similarity_threshold=0.7, overlap_threshold=0.3,
         similarity_threshold (float): Cosine similarity threshold to consider duplicate bullets.
         overlap_threshold (float): Overlap ratio threshold to consider duplicate bullets.
         header_similarity_threshold (float): Cosine similarity threshold to consider duplicate headers.
+        header_overlap_threshold (float): Overlap ratio threshold to consider duplicate headers.
 
     Returns:
         merged_text (str): The merged text of all notes.
@@ -142,7 +149,7 @@ def merge_multiple_notes(notes, similarity_threshold=0.7, overlap_threshold=0.3,
         if pu != pv:
             parent[pu] = pv
 
-    # For each pair of headers, check similarity and union
+    # For each pair of headers, check similarity and overlap, and union if both thresholds are met
     logging.info("Comparing headers for similarity and overlap...")
     for i in range(len(all_headers)):
         for j in range(i + 1, len(all_headers)):
@@ -151,7 +158,7 @@ def merge_multiple_notes(notes, similarity_threshold=0.7, overlap_threshold=0.3,
             overlap_ratio = calculate_overlap_ratio_headers(all_headers[i]['header_name'], all_headers[j]['header_name'])
             # Output the similarity and overlap scores to debug log
             logging.debug(f"Headers '{all_headers[i]['header_name']}' and '{all_headers[j]['header_name']}' have similarity {sim:.4f} and overlap ratio {overlap_ratio:.4f}")
-            if sim >= header_similarity_threshold:
+            if sim >= header_similarity_threshold and overlap_ratio >= header_overlap_threshold:
                 union(i, j)
 
     # Now, group headers by their parent
@@ -169,25 +176,32 @@ def merge_multiple_notes(notes, similarity_threshold=0.7, overlap_threshold=0.3,
     sentence_to_sources = {}
 
     for group_idx, group in enumerate(header_groups, 1):
-        # Collect bullets from all headers in the group
+        # Collect headers in the group
         group_headers = [all_headers[idx] for idx in group]
+        # Sort headers in the group by note_num to have a consistent accepted header
+        group_headers.sort(key=lambda h: h['note_num'])
+        accepted_header = group_headers[0]['header_name']
+        accepted_header_id = group_headers[0]['header_id']
+        accepted_note_num = group_headers[0]['note_num']
+
+        # Collect bullets from all headers in the group
         group_bullets_info = []  # Will be similar to sentences_info before
 
         # Collect conflicts for headers in this group
         conflicts = []
-        accepted_header = group_headers[0]['header_name']
         for header in group_headers[1:]:
             conflict_header = header['header_name']
             sim = float(np.dot(header['embedding'], group_headers[0]['embedding']))
             # Compute overlap ratio
             overlap_ratio = calculate_overlap_ratio_headers(group_headers[0]['header_name'], header['header_name'])
-            conflicts.append({
-                "note_id": header['note_num'],
-                "header_id": header['header_id'],
-                "header_name": conflict_header,
-                "similarity": sim,
-                "overlap_ratio": overlap_ratio
-            })
+            if sim >= header_similarity_threshold and overlap_ratio >= header_overlap_threshold:
+                conflicts.append({
+                    "note_id": header['note_num'],
+                    "header_id": header['header_id'],
+                    "header_name": conflict_header,
+                    "similarity": sim,
+                    "overlap_ratio": overlap_ratio
+                })
 
         for header in group_headers:
             note_num = header['note_num']
@@ -210,7 +224,7 @@ def merge_multiple_notes(notes, similarity_threshold=0.7, overlap_threshold=0.3,
         # Identify unique preprocessed bullets
         unique_pre_bullets = list(set(preprocessed_bullets))
         logging.debug(f"Found {len(unique_pre_bullets)} unique preprocessed bullets in header group '{accepted_header}'.")
-
+        
         # Generate embeddings for bullets
         logging.info(f"Generating embeddings for bullets in header '{accepted_header}' (Group {group_idx}/{len(header_groups)})...")
         bullet_embeddings_list = []
@@ -247,8 +261,8 @@ def merge_multiple_notes(notes, similarity_threshold=0.7, overlap_threshold=0.3,
         # Collect merged bullets and their conflicts
         merged_header = {
             'header_name': accepted_header,
-            'header_id': group_headers[0]['header_id'],
-            'note_id': group_headers[0]['note_num'],
+            'header_id': accepted_header_id,
+            'note_id': accepted_note_num,
             'bullets': merged_bullets,
             'bullet_to_sources': bullet_to_sources,
             'conflicts': conflicts
