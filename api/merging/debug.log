@@ -1,0 +1,331 @@
+2024-09-29 23:42:02,187 - DEBUG - Loading file: notes2.json
+2024-09-29 23:42:02,187 - DEBUG - Loading file: notes3.json
+2024-09-29 23:42:02,188 - INFO - Generating embeddings for headers...
+2024-09-29 23:42:02,188 - DEBUG - Generated embedding for text: 'What Are Algorithms...'
+2024-09-29 23:42:02,188 - DEBUG - Generated and cached embedding for header: 'What Are Algorithms' with key 'notes2.json_What Are Algorithms'
+2024-09-29 23:42:02,188 - DEBUG - Generated embedding for text: 'Searching Methods...'
+2024-09-29 23:42:02,188 - DEBUG - Generated and cached embedding for header: 'Searching Methods' with key 'notes2.json_Searching Methods'
+2024-09-29 23:42:02,188 - DEBUG - Generated embedding for text: 'Types of Data Structures...'
+2024-09-29 23:42:02,188 - DEBUG - Generated and cached embedding for header: 'Types of Data Structures' with key 'notes2.json_Types of Data Structures'
+2024-09-29 23:42:02,188 - DEBUG - Generated embedding for text: 'Common Sorting Techniques...'
+2024-09-29 23:42:02,188 - DEBUG - Generated and cached embedding for header: 'Common Sorting Techniques' with key 'notes2.json_Common Sorting Techniques'
+2024-09-29 23:42:02,188 - DEBUG - Generated embedding for text: 'Introduction to Algorithms...'
+2024-09-29 23:42:02,188 - DEBUG - Generated and cached embedding for header: 'Introduction to Algorithms' with key 'notes3.json_Introduction to Algorithms'
+2024-09-29 23:42:02,188 - DEBUG - Generated embedding for text: 'Common Data Structures...'
+2024-09-29 23:42:02,188 - DEBUG - Generated and cached embedding for header: 'Common Data Structures' with key 'notes3.json_Common Data Structures'
+2024-09-29 23:42:02,188 - DEBUG - Generated embedding for text: 'Popular Sorting Algorithms...'
+2024-09-29 23:42:02,188 - DEBUG - Generated and cached embedding for header: 'Popular Sorting Algorithms' with key 'notes3.json_Popular Sorting Algorithms'
+2024-09-29 23:42:02,188 - DEBUG - Generated embedding for text: 'Efficient Search Techniques...'
+2024-09-29 23:42:02,188 - DEBUG - Generated and cached embedding for header: 'Efficient Search Techniques' with key 'notes3.json_Efficient Search Techniques'
+2024-09-29 23:42:02,188 - INFO - Comparing headers for similarity and overlap...
+2024-09-29 23:42:02,188 - DEBUG - Headers 'What Are Algorithms' and 'Searching Methods' have similarity 0.7526 and overlap ratio 0.0000
+2024-09-29 23:42:02,188 - DEBUG - Headers 'What Are Algorithms' and 'Types of Data Structures' have similarity 0.7498 and overlap ratio 0.0000
+2024-09-29 23:42:02,188 - DEBUG - Headers 'What Are Algorithms' and 'Common Sorting Techniques' have similarity 0.7327 and overlap ratio 0.0000
+2024-09-29 23:42:02,188 - DEBUG - Headers 'What Are Algorithms' and 'Introduction to Algorithms' have similarity 0.7644 and overlap ratio 0.3333
+2024-09-29 23:42:02,188 - DEBUG - Headers 'What Are Algorithms' and 'Common Data Structures' have similarity 0.7582 and overlap ratio 0.0000
+2024-09-29 23:42:02,188 - DEBUG - Headers 'What Are Algorithms' and 'Popular Sorting Algorithms' have similarity 0.7490 and overlap ratio 0.3333
+2024-09-29 23:42:02,188 - DEBUG - Headers 'What Are Algorithms' and 'Efficient Search Techniques' have similarity 0.7573 and overlap ratio 0.0000
+2024-09-29 23:42:02,188 - DEBUG - Headers 'Searching Methods' and 'Types of Data Structures' have similarity 0.7502 and overlap ratio 0.0000
+2024-09-29 23:42:02,188 - DEBUG - Headers 'Searching Methods' and 'Common Sorting Techniques' have similarity 0.7645 and overlap ratio 0.0000
+2024-09-29 23:42:02,188 - DEBUG - Headers 'Searching Methods' and 'Introduction to Algorithms' have similarity 0.7693 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Searching Methods' and 'Common Data Structures' have similarity 0.7641 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Searching Methods' and 'Popular Sorting Algorithms' have similarity 0.7421 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Searching Methods' and 'Efficient Search Techniques' have similarity 0.7622 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Types of Data Structures' and 'Common Sorting Techniques' have similarity 0.7542 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Types of Data Structures' and 'Introduction to Algorithms' have similarity 0.7536 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Types of Data Structures' and 'Common Data Structures' have similarity 0.7569 and overlap ratio 0.5000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Types of Data Structures' and 'Popular Sorting Algorithms' have similarity 0.7478 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Types of Data Structures' and 'Efficient Search Techniques' have similarity 0.7373 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Common Sorting Techniques' and 'Introduction to Algorithms' have similarity 0.7538 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Common Sorting Techniques' and 'Common Data Structures' have similarity 0.7461 and overlap ratio 0.3333
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Common Sorting Techniques' and 'Popular Sorting Algorithms' have similarity 0.7400 and overlap ratio 0.3333
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Common Sorting Techniques' and 'Efficient Search Techniques' have similarity 0.7355 and overlap ratio 0.3333
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Introduction to Algorithms' and 'Common Data Structures' have similarity 0.7557 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Introduction to Algorithms' and 'Popular Sorting Algorithms' have similarity 0.7587 and overlap ratio 0.3333
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Introduction to Algorithms' and 'Efficient Search Techniques' have similarity 0.7318 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Common Data Structures' and 'Popular Sorting Algorithms' have similarity 0.7386 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Common Data Structures' and 'Efficient Search Techniques' have similarity 0.7397 and overlap ratio 0.0000
+2024-09-29 23:42:02,189 - DEBUG - Headers 'Popular Sorting Algorithms' and 'Efficient Search Techniques' have similarity 0.7266 and overlap ratio 0.0000
+2024-09-29 23:42:03,781 - DEBUG - Preprocessed and cached sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations.' -> 'algorithm clearly defined sequence instruction used solve problem perform task algorithm foundation programming computing operation', avg_word_length: 7.8
+2024-09-29 23:42:03,781 - DEBUG - Preprocessed and cached sentence: 'Time Complexity: This measures the time it takes for an algorithm to run, depending on the size of the input data. Common examples include:' -> 'time complexity measure time take algorithm run depending size input data common example include', avg_word_length: 5.928571428571429
+2024-09-29 23:42:03,781 - DEBUG - Preprocessed and cached sentence: 'O(1): Constant time' -> '1 constant time', avg_word_length: 4.333333333333333
+2024-09-29 23:42:03,781 - DEBUG - Preprocessed and cached sentence: 'O(n): Linear time' -> 'n linear time', avg_word_length: 3.6666666666666665
+2024-09-29 23:42:03,781 - DEBUG - Preprocessed and cached sentence: 'O(n²): Quadratic time' -> 'n² quadratic time', avg_word_length: 5.0
+2024-09-29 23:42:03,781 - DEBUG - Preprocessed and cached sentence: 'Space Complexity: This measures how much memory the algorithm requires as the input size increases.' -> 'space complexity measure much memory algorithm requires input size increase', avg_word_length: 6.6
+2024-09-29 23:42:03,781 - DEBUG - Preprocessed and cached sentence: 'An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving.' -> 'algorithm step step method solving problem completing task heart software development computational problem solving', avg_word_length: 7.285714285714286
+2024-09-29 23:42:03,781 - DEBUG - Preprocessed and cached sentence: 'Time Complexity: Refers to how long an algorithm takes to execute as the input size changes. Examples of common complexities are:' -> 'time complexity refers long algorithm take execute input size change example common complexity', avg_word_length: 6.3076923076923075
+2024-09-29 23:42:03,781 - DEBUG - Preprocessed and cached sentence: 'O(1): Constant execution time' -> '1 constant execution time', avg_word_length: 5.5
+2024-09-29 23:42:03,781 - DEBUG - Preprocessed and cached sentence: 'O(n): Execution time grows linearly with input size' -> 'n execution time grows linearly input size', avg_word_length: 5.142857142857143
+2024-09-29 23:42:03,782 - DEBUG - Preprocessed and cached sentence: 'O(n²): Execution time grows quadratically' -> 'n² execution time grows quadratically', avg_word_length: 6.6
+2024-09-29 23:42:03,782 - DEBUG - Preprocessed and cached sentence: 'Space Complexity: This measures the memory usage of an algorithm relative to the input size.' -> 'space complexity measure memory usage algorithm relative input size', avg_word_length: 6.555555555555555
+2024-09-29 23:42:03,782 - DEBUG - Preprocessed and cached sentence: 'Sorting algorithms reorder data in a specified way, typically in ascending or descending order. Common sorting algorithms include:' -> 'sorting algorithm reorder data specified way typically ascending descending order common sorting algorithm include', avg_word_length: 7.214285714285714
+2024-09-29 23:42:03,782 - DEBUG - Preprocessed and cached sentence: 'Bubble Sort: This algorithm compares and swaps adjacent elements repeatedly until the entire list is sorted. Time complexity: O(n²).' -> 'bubble sort algorithm compare swap adjacent element repeatedly entire list sorted time complexity n²', avg_word_length: 6.214285714285714
+2024-09-29 23:42:03,782 - DEBUG - Preprocessed and cached sentence: 'Merge Sort: It uses a divide-and-conquer approach to split data into smaller arrays, sort them, and then merge them back together. Time complexity: O(n log n).' -> 'merge sort us divide conquer approach split data smaller array sort merge back together time complexity n log n', avg_word_length: 4.894736842105263
+2024-09-29 23:42:03,782 - DEBUG - Found 15 unique preprocessed bullets in header group 'What Are Algorithms'.
+2024-09-29 23:42:03,782 - INFO - Generating embeddings for bullets in header 'What Are Algorithms' (Group 1/5)...
+2024-09-29 23:42:03,782 - DEBUG - Generated embedding for text: 'algorithm clearly defined sequ...'
+2024-09-29 23:42:03,782 - DEBUG - Generated and cached embedding for bullet: 'algorithm clearly defined sequence instruction used solve problem perform task algorithm foundation programming computing operation'
+2024-09-29 23:42:03,782 - DEBUG - Generated embedding for text: 'bubble sort algorithm compare ...'
+2024-09-29 23:42:03,782 - DEBUG - Generated and cached embedding for bullet: 'bubble sort algorithm compare swap adjacent element repeatedly entire list sorted time complexity n²'
+2024-09-29 23:42:03,782 - DEBUG - Generated embedding for text: 'n² execution time grows quadra...'
+2024-09-29 23:42:03,782 - DEBUG - Generated and cached embedding for bullet: 'n² execution time grows quadratically'
+2024-09-29 23:42:03,782 - DEBUG - Generated embedding for text: '1 constant execution time...'
+2024-09-29 23:42:03,782 - DEBUG - Generated and cached embedding for bullet: '1 constant execution time'
+2024-09-29 23:42:03,782 - DEBUG - Generated embedding for text: 'n linear time...'
+2024-09-29 23:42:03,782 - DEBUG - Generated and cached embedding for bullet: 'n linear time'
+2024-09-29 23:42:03,782 - DEBUG - Generated embedding for text: 'algorithm step step method sol...'
+2024-09-29 23:42:03,782 - DEBUG - Generated and cached embedding for bullet: 'algorithm step step method solving problem completing task heart software development computational problem solving'
+2024-09-29 23:42:03,782 - DEBUG - Generated embedding for text: 'time complexity measure time t...'
+2024-09-29 23:42:03,782 - DEBUG - Generated and cached embedding for bullet: 'time complexity measure time take algorithm run depending size input data common example include'
+2024-09-29 23:42:03,782 - DEBUG - Generated embedding for text: '1 constant time...'
+2024-09-29 23:42:03,782 - DEBUG - Generated and cached embedding for bullet: '1 constant time'
+2024-09-29 23:42:03,782 - DEBUG - Generated embedding for text: 'n execution time grows linearl...'
+2024-09-29 23:42:03,782 - DEBUG - Generated and cached embedding for bullet: 'n execution time grows linearly input size'
+2024-09-29 23:42:03,782 - DEBUG - Generated embedding for text: 'n² quadratic time...'
+2024-09-29 23:42:03,783 - DEBUG - Generated and cached embedding for bullet: 'n² quadratic time'
+2024-09-29 23:42:03,783 - DEBUG - Generated embedding for text: 'space complexity measure much ...'
+2024-09-29 23:42:03,783 - DEBUG - Generated and cached embedding for bullet: 'space complexity measure much memory algorithm requires input size increase'
+2024-09-29 23:42:03,783 - DEBUG - Generated embedding for text: 'time complexity refers long al...'
+2024-09-29 23:42:03,783 - DEBUG - Generated and cached embedding for bullet: 'time complexity refers long algorithm take execute input size change example common complexity'
+2024-09-29 23:42:03,783 - DEBUG - Generated embedding for text: 'sorting algorithm reorder data...'
+2024-09-29 23:42:03,783 - DEBUG - Generated and cached embedding for bullet: 'sorting algorithm reorder data specified way typically ascending descending order common sorting algorithm include'
+2024-09-29 23:42:03,783 - DEBUG - Generated embedding for text: 'merge sort us divide conquer a...'
+2024-09-29 23:42:03,783 - DEBUG - Generated and cached embedding for bullet: 'merge sort us divide conquer approach split data smaller array sort merge back together time complexity n log n'
+2024-09-29 23:42:03,783 - DEBUG - Generated embedding for text: 'space complexity measure memor...'
+2024-09-29 23:42:03,783 - DEBUG - Generated and cached embedding for bullet: 'space complexity measure memory usage algorithm relative input size'
+2024-09-29 23:42:03,783 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
+2024-09-29 23:42:03,783 - DEBUG - Processing sentence 1: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' from note notes2.json, sentence 1
+2024-09-29 23:42:03,783 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
+2024-09-29 23:42:03,783 - INFO - Retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations'
+2024-09-29 23:42:03,783 - DEBUG - Processing sentence 2: 'Time Complexity: This measures the time it takes for an algorithm to run, depending on the size of the input data. Common examples include:' from note notes2.json, sentence 2
+2024-09-29 23:42:03,784 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7492 | Overlap Ratio: 0.0714
+2024-09-29 23:42:03,784 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
+2024-09-29 23:42:03,784 - INFO - Retained sentence: 'Time Complexity: This measures the time it takes for an algorithm to run, depending on the size of the input data. Common examples include:'
+2024-09-29 23:42:03,784 - DEBUG - Processing sentence 3: 'O(1): Constant time' from note notes2.json, sentence 3
+2024-09-29 23:42:03,784 - DEBUG - Comparing with retained sentence: 'Time Complexity: This measures the time it takes for an algorithm to run, depending on the size of the input data. Common examples include:' | Similarity: 0.7400 | Overlap Ratio: 0.0769
+2024-09-29 23:42:03,784 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7294 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,785 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 3.
+2024-09-29 23:42:03,785 - INFO - Retained sentence: 'O(1): Constant time'
+2024-09-29 23:42:03,785 - DEBUG - Processing sentence 4: 'O(n): Linear time' from note notes2.json, sentence 4
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7593 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'Time Complexity: This measures the time it takes for an algorithm to run, depending on the size of the input data. Common examples include:' | Similarity: 0.7573 | Overlap Ratio: 0.0769
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(1): Constant time' | Similarity: 0.7418 | Overlap Ratio: 0.3333
+2024-09-29 23:42:03,785 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 4.
+2024-09-29 23:42:03,785 - INFO - Retained sentence: 'O(n): Linear time'
+2024-09-29 23:42:03,785 - DEBUG - Processing sentence 5: 'O(n²): Quadratic time' from note notes2.json, sentence 5
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(1): Constant time' | Similarity: 0.7563 | Overlap Ratio: 0.3333
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(n): Linear time' | Similarity: 0.7562 | Overlap Ratio: 0.3333
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7513 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'Time Complexity: This measures the time it takes for an algorithm to run, depending on the size of the input data. Common examples include:' | Similarity: 0.7381 | Overlap Ratio: 0.0769
+2024-09-29 23:42:03,785 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 5.
+2024-09-29 23:42:03,785 - INFO - Retained sentence: 'O(n²): Quadratic time'
+2024-09-29 23:42:03,785 - DEBUG - Processing sentence 6: 'Space Complexity: This measures how much memory the algorithm requires as the input size increases' from note notes2.json, sentence 6
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7637 | Overlap Ratio: 0.0714
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(n): Linear time' | Similarity: 0.7528 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'Time Complexity: This measures the time it takes for an algorithm to run, depending on the size of the input data. Common examples include:' | Similarity: 0.7515 | Overlap Ratio: 0.3846
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(1): Constant time' | Similarity: 0.7515 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(n²): Quadratic time' | Similarity: 0.7425 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,785 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 6.
+2024-09-29 23:42:03,785 - INFO - Retained sentence: 'Space Complexity: This measures how much memory the algorithm requires as the input size increases'
+2024-09-29 23:42:03,785 - DEBUG - Processing sentence 7: 'An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving' from note notes3.json, sentence 1
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(n): Linear time' | Similarity: 0.7745 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'Space Complexity: This measures how much memory the algorithm requires as the input size increases' | Similarity: 0.7699 | Overlap Ratio: 0.0909
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7597 | Overlap Ratio: 0.2143
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(n²): Quadratic time' | Similarity: 0.7541 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'Time Complexity: This measures the time it takes for an algorithm to run, depending on the size of the input data. Common examples include:' | Similarity: 0.7513 | Overlap Ratio: 0.0769
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(1): Constant time' | Similarity: 0.7498 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,785 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 7.
+2024-09-29 23:42:03,785 - INFO - Retained sentence: 'An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving'
+2024-09-29 23:42:03,785 - DEBUG - Processing sentence 8: 'Time Complexity: Refers to how long an algorithm takes to execute as the input size changes. Examples of common complexities are:' from note notes3.json, sentence 2
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving' | Similarity: 0.7783 | Overlap Ratio: 0.0833
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(1): Constant time' | Similarity: 0.7638 | Overlap Ratio: 0.0833
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(n): Linear time' | Similarity: 0.7629 | Overlap Ratio: 0.0833
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'Space Complexity: This measures how much memory the algorithm requires as the input size increases' | Similarity: 0.7625 | Overlap Ratio: 0.3333
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'Time Complexity: This measures the time it takes for an algorithm to run, depending on the size of the input data. Common examples include:' | Similarity: 0.7595 | Overlap Ratio: 0.6154
+2024-09-29 23:42:03,785 - INFO - Replacing retained sentence 'Time Complexity: This measures the time it takes for an algorithm to run, depending on the size of the input data. Common examples include:' (avg word length 5.93) with 'Time Complexity: Refers to how long an algorithm takes to execute as the input size changes. Examples of common complexities are:' (avg word length 6.31) due to higher average word length.
+2024-09-29 23:42:03,785 - DEBUG - Processing sentence 9: 'O(1): Constant execution time' from note notes3.json, sentence 3
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(n): Linear time' | Similarity: 0.7651 | Overlap Ratio: 0.2500
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(n²): Quadratic time' | Similarity: 0.7583 | Overlap Ratio: 0.2500
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'Space Complexity: This measures how much memory the algorithm requires as the input size increases' | Similarity: 0.7553 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'Time Complexity: Refers to how long an algorithm takes to execute as the input size changes. Examples of common complexities are:' | Similarity: 0.7548 | Overlap Ratio: 0.0833
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving' | Similarity: 0.7482 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,785 - DEBUG - Comparing with retained sentence: 'O(1): Constant time' | Similarity: 0.7460 | Overlap Ratio: 0.7500
+2024-09-29 23:42:03,785 - INFO - Replacing retained sentence 'O(1): Constant time' (avg word length 4.33) with 'O(1): Constant execution time' (avg word length 5.50) due to higher average word length.
+2024-09-29 23:42:03,786 - DEBUG - Processing sentence 10: 'O(n): Execution time grows linearly with input size' from note notes3.json, sentence 4
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(n): Linear time' | Similarity: 0.7609 | Overlap Ratio: 0.2857
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'Space Complexity: This measures how much memory the algorithm requires as the input size increases' | Similarity: 0.7542 | Overlap Ratio: 0.2000
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving' | Similarity: 0.7525 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'Time Complexity: Refers to how long an algorithm takes to execute as the input size changes. Examples of common complexities are:' | Similarity: 0.7522 | Overlap Ratio: 0.2500
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(1): Constant execution time' | Similarity: 0.7486 | Overlap Ratio: 0.2857
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7466 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(n²): Quadratic time' | Similarity: 0.7383 | Overlap Ratio: 0.1429
+2024-09-29 23:42:03,786 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 8.
+2024-09-29 23:42:03,786 - INFO - Retained sentence: 'O(n): Execution time grows linearly with input size'
+2024-09-29 23:42:03,786 - DEBUG - Processing sentence 11: 'O(n²): Execution time grows quadratically' from note notes3.json, sentence 5
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving' | Similarity: 0.7902 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7842 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(n): Linear time' | Similarity: 0.7818 | Overlap Ratio: 0.2000
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(n): Execution time grows linearly with input size' | Similarity: 0.7743 | Overlap Ratio: 0.4286
+2024-09-29 23:42:03,786 - INFO - Replacing retained sentence 'O(n): Execution time grows linearly with input size' (avg word length 5.14) with 'O(n²): Execution time grows quadratically' (avg word length 6.60) due to higher average word length.
+2024-09-29 23:42:03,786 - DEBUG - Processing sentence 12: 'Space Complexity: This measures the memory usage of an algorithm relative to the input size' from note notes3.json, sentence 6
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(n): Linear time' | Similarity: 0.7667 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7644 | Overlap Ratio: 0.0714
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving' | Similarity: 0.7602 | Overlap Ratio: 0.0909
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'Space Complexity: This measures how much memory the algorithm requires as the input size increases' | Similarity: 0.7506 | Overlap Ratio: 0.7000
+2024-09-29 23:42:03,786 - INFO - Discarding sentence 'Space Complexity: This measures the memory usage of an algorithm relative to the input size' (avg word length 6.56) due to duplication with retained sentence 'Space Complexity: This measures how much memory the algorithm requires as the input size increases' (avg word length 6.60).
+2024-09-29 23:42:03,786 - DEBUG - Processing sentence 13: 'Sorting algorithms reorder data in a specified way, typically in ascending or descending order. Common sorting algorithms include:' from note notes3.json, sentence 1
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'Space Complexity: This measures how much memory the algorithm requires as the input size increases' | Similarity: 0.7646 | Overlap Ratio: 0.0833
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(n): Linear time' | Similarity: 0.7590 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(1): Constant execution time' | Similarity: 0.7582 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7538 | Overlap Ratio: 0.0714
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(n²): Quadratic time' | Similarity: 0.7502 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving' | Similarity: 0.7419 | Overlap Ratio: 0.0833
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'Time Complexity: Refers to how long an algorithm takes to execute as the input size changes. Examples of common complexities are:' | Similarity: 0.7358 | Overlap Ratio: 0.1667
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(n²): Execution time grows quadratically' | Similarity: 0.7335 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,786 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 9.
+2024-09-29 23:42:03,786 - INFO - Retained sentence: 'Sorting algorithms reorder data in a specified way, typically in ascending or descending order. Common sorting algorithms include:'
+2024-09-29 23:42:03,786 - DEBUG - Processing sentence 14: 'Bubble Sort: This algorithm compares and swaps adjacent elements repeatedly until the entire list is sorted. Time complexity: O(n²)' from note notes3.json, sentence 2
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'Space Complexity: This measures how much memory the algorithm requires as the input size increases' | Similarity: 0.7582 | Overlap Ratio: 0.1429
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(n²): Execution time grows quadratically' | Similarity: 0.7562 | Overlap Ratio: 0.1429
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'Sorting algorithms reorder data in a specified way, typically in ascending or descending order. Common sorting algorithms include:' | Similarity: 0.7559 | Overlap Ratio: 0.0714
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving' | Similarity: 0.7520 | Overlap Ratio: 0.0714
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'Time Complexity: Refers to how long an algorithm takes to execute as the input size changes. Examples of common complexities are:' | Similarity: 0.7510 | Overlap Ratio: 0.2143
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(n): Linear time' | Similarity: 0.7476 | Overlap Ratio: 0.0714
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(n²): Quadratic time' | Similarity: 0.7471 | Overlap Ratio: 0.1429
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7439 | Overlap Ratio: 0.0714
+2024-09-29 23:42:03,786 - DEBUG - Comparing with retained sentence: 'O(1): Constant execution time' | Similarity: 0.7368 | Overlap Ratio: 0.0714
+2024-09-29 23:42:03,786 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 10.
+2024-09-29 23:42:03,786 - INFO - Retained sentence: 'Bubble Sort: This algorithm compares and swaps adjacent elements repeatedly until the entire list is sorted. Time complexity: O(n²)'
+2024-09-29 23:42:03,786 - DEBUG - Processing sentence 15: 'Merge Sort: It uses a divide-and-conquer approach to split data into smaller arrays, sort them, and then merge them back together. Time complexity: O(n log n)' from note notes3.json, sentence 3
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'O(n): Linear time' | Similarity: 0.7641 | Overlap Ratio: 0.1250
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'Space Complexity: This measures how much memory the algorithm requires as the input size increases' | Similarity: 0.7638 | Overlap Ratio: 0.0625
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'Bubble Sort: This algorithm compares and swaps adjacent elements repeatedly until the entire list is sorted. Time complexity: O(n²)' | Similarity: 0.7624 | Overlap Ratio: 0.1875
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'An algorithm is a step-by-step method for solving problems or completing tasks. They are at the heart of software development and computational problem-solving' | Similarity: 0.7598 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'An algorithm is a clearly defined sequence of instructions used to solve problems or perform tasks. Algorithms are the foundation of all programming and computing operations' | Similarity: 0.7590 | Overlap Ratio: 0.0000
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'O(n²): Quadratic time' | Similarity: 0.7588 | Overlap Ratio: 0.0625
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'Sorting algorithms reorder data in a specified way, typically in ascending or descending order. Common sorting algorithms include:' | Similarity: 0.7586 | Overlap Ratio: 0.0625
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'O(1): Constant execution time' | Similarity: 0.7580 | Overlap Ratio: 0.0625
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'O(n²): Execution time grows quadratically' | Similarity: 0.7522 | Overlap Ratio: 0.0625
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'Time Complexity: Refers to how long an algorithm takes to execute as the input size changes. Examples of common complexities are:' | Similarity: 0.7397 | Overlap Ratio: 0.1250
+2024-09-29 23:42:03,787 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 11.
+2024-09-29 23:42:03,787 - INFO - Retained sentence: 'Merge Sort: It uses a divide-and-conquer approach to split data into smaller arrays, sort them, and then merge them back together. Time complexity: O(n log n)'
+2024-09-29 23:42:03,787 - INFO - Total retained sentences after deduplication: 11
+2024-09-29 23:42:03,787 - DEBUG - Preprocessed and cached sentence: 'Searching algorithms help find specific elements in a data structure. Two common methods include:' -> 'searching algorithm help find specific element data structure two common method include', avg_word_length: 6.333333333333333
+2024-09-29 23:42:03,787 - DEBUG - Preprocessed and cached sentence: 'Linear Search: Iterates through each element one by one to find the target. Time complexity: O(n).' -> 'linear search iterates element one one find target time complexity n', avg_word_length: 5.2727272727272725
+2024-09-29 23:42:03,787 - DEBUG - Preprocessed and cached sentence: 'Binary Search: Efficiently finds elements in a sorted array by halving the search space at each step. Time complexity: O(log n).' -> 'binary search efficiently find element sorted array halving search space step time complexity log n', avg_word_length: 5.666666666666667
+2024-09-29 23:42:03,787 - DEBUG - Found 3 unique preprocessed bullets in header group 'Searching Methods'.
+2024-09-29 23:42:03,787 - INFO - Generating embeddings for bullets in header 'Searching Methods' (Group 2/5)...
+2024-09-29 23:42:03,787 - DEBUG - Generated embedding for text: 'linear search iterates element...'
+2024-09-29 23:42:03,787 - DEBUG - Generated and cached embedding for bullet: 'linear search iterates element one one find target time complexity n'
+2024-09-29 23:42:03,787 - DEBUG - Generated embedding for text: 'searching algorithm help find ...'
+2024-09-29 23:42:03,787 - DEBUG - Generated and cached embedding for bullet: 'searching algorithm help find specific element data structure two common method include'
+2024-09-29 23:42:03,787 - DEBUG - Generated embedding for text: 'binary search efficiently find...'
+2024-09-29 23:42:03,787 - DEBUG - Generated and cached embedding for bullet: 'binary search efficiently find element sorted array halving search space step time complexity log n'
+2024-09-29 23:42:03,787 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
+2024-09-29 23:42:03,787 - DEBUG - Processing sentence 1: 'Searching algorithms help find specific elements in a data structure. Two common methods include:' from note notes2.json, sentence 1
+2024-09-29 23:42:03,787 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
+2024-09-29 23:42:03,787 - INFO - Retained sentence: 'Searching algorithms help find specific elements in a data structure. Two common methods include:'
+2024-09-29 23:42:03,787 - DEBUG - Processing sentence 2: 'Linear Search: Iterates through each element one by one to find the target. Time complexity: O(n)' from note notes2.json, sentence 2
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'Searching algorithms help find specific elements in a data structure. Two common methods include:' | Similarity: 0.7531 | Overlap Ratio: 0.1667
+2024-09-29 23:42:03,787 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
+2024-09-29 23:42:03,787 - INFO - Retained sentence: 'Linear Search: Iterates through each element one by one to find the target. Time complexity: O(n)'
+2024-09-29 23:42:03,787 - DEBUG - Processing sentence 3: 'Binary Search: Efficiently finds elements in a sorted array by halving the search space at each step. Time complexity: O(log n)' from note notes2.json, sentence 3
+2024-09-29 23:42:03,787 - DEBUG - Comparing with retained sentence: 'Searching algorithms help find specific elements in a data structure. Two common methods include:' | Similarity: 0.7752 | Overlap Ratio: 0.1429
+2024-09-29 23:42:03,788 - DEBUG - Comparing with retained sentence: 'Linear Search: Iterates through each element one by one to find the target. Time complexity: O(n)' | Similarity: 0.7400 | Overlap Ratio: 0.4286
+2024-09-29 23:42:03,788 - INFO - Replacing retained sentence 'Linear Search: Iterates through each element one by one to find the target. Time complexity: O(n)' (avg word length 5.27) with 'Binary Search: Efficiently finds elements in a sorted array by halving the search space at each step. Time complexity: O(log n)' (avg word length 5.67) due to higher average word length.
+2024-09-29 23:42:03,788 - INFO - Total retained sentences after deduplication: 2
+2024-09-29 23:42:03,788 - DEBUG - Preprocessed and cached sentence: 'Data structures refer to various ways of organizing and storing data, allowing efficient access and modification of the data.' -> 'data structure refer various way organizing storing data allowing efficient access modification data', avg_word_length: 6.769230769230769
+2024-09-29 23:42:03,788 - DEBUG - Preprocessed and cached sentence: 'Arrays: A linear collection of elements, where each element is stored in contiguous memory. Arrays allow fast access to elements by their index.' -> 'array linear collection element element stored contiguous memory array allow fast access element index', avg_word_length: 6.357142857142857
+2024-09-29 23:42:03,788 - DEBUG - Preprocessed and cached sentence: 'Linked Lists: A sequence of nodes, where each node holds data and a reference to the next node. They allow dynamic resizing and efficient insertions or deletions.' -> 'linked list sequence node node hold data reference next node allow dynamic resizing efficient insertion deletion', avg_word_length: 6.0625
+2024-09-29 23:42:03,788 - DEBUG - Preprocessed and cached sentence: 'Data structures are frameworks used to store and manage data, optimizing access and modifications.' -> 'data structure framework used store manage data optimizing access modification', avg_word_length: 6.9
+2024-09-29 23:42:03,788 - DEBUG - Preprocessed and cached sentence: 'Arrays: Ordered collections of elements stored in contiguous memory. Arrays offer constant-time element access but require resizing to accommodate larger data.' -> 'array ordered collection element stored contiguous memory array offer constant time element access require resizing accommodate larger data', avg_word_length: 6.777777777777778
+2024-09-29 23:42:03,788 - DEBUG - Preprocessed and cached sentence: 'Linked Lists: Composed of nodes, where each node holds data and a link to the next node. Linked lists allow dynamic sizing and are ideal for scenarios where data is frequently added or removed.' -> 'linked list composed node node hold data link next node linked list allow dynamic sizing ideal scenario data frequently added removed', avg_word_length: 5.380952380952381
+2024-09-29 23:42:03,788 - DEBUG - Found 6 unique preprocessed bullets in header group 'Types of Data Structures'.
+2024-09-29 23:42:03,788 - INFO - Generating embeddings for bullets in header 'Types of Data Structures' (Group 3/5)...
+2024-09-29 23:42:03,788 - DEBUG - Generated embedding for text: 'data structure framework used ...'
+2024-09-29 23:42:03,788 - DEBUG - Generated and cached embedding for bullet: 'data structure framework used store manage data optimizing access modification'
+2024-09-29 23:42:03,788 - DEBUG - Generated embedding for text: 'linked list sequence node node...'
+2024-09-29 23:42:03,788 - DEBUG - Generated and cached embedding for bullet: 'linked list sequence node node hold data reference next node allow dynamic resizing efficient insertion deletion'
+2024-09-29 23:42:03,788 - DEBUG - Generated embedding for text: 'linked list composed node node...'
+2024-09-29 23:42:03,788 - DEBUG - Generated and cached embedding for bullet: 'linked list composed node node hold data link next node linked list allow dynamic sizing ideal scenario data frequently added removed'
+2024-09-29 23:42:03,788 - DEBUG - Generated embedding for text: 'array linear collection elemen...'
+2024-09-29 23:42:03,788 - DEBUG - Generated and cached embedding for bullet: 'array linear collection element element stored contiguous memory array allow fast access element index'
+2024-09-29 23:42:03,788 - DEBUG - Generated embedding for text: 'data structure refer various w...'
+2024-09-29 23:42:03,788 - DEBUG - Generated and cached embedding for bullet: 'data structure refer various way organizing storing data allowing efficient access modification data'
+2024-09-29 23:42:03,788 - DEBUG - Generated embedding for text: 'array ordered collection eleme...'
+2024-09-29 23:42:03,788 - DEBUG - Generated and cached embedding for bullet: 'array ordered collection element stored contiguous memory array offer constant time element access require resizing accommodate larger data'
+2024-09-29 23:42:03,788 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
+2024-09-29 23:42:03,788 - DEBUG - Processing sentence 1: 'Data structures refer to various ways of organizing and storing data, allowing efficient access and modification of the data' from note notes2.json, sentence 1
+2024-09-29 23:42:03,788 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
+2024-09-29 23:42:03,789 - INFO - Retained sentence: 'Data structures refer to various ways of organizing and storing data, allowing efficient access and modification of the data'
+2024-09-29 23:42:03,789 - DEBUG - Processing sentence 2: 'Arrays: A linear collection of elements, where each element is stored in contiguous memory. Arrays allow fast access to elements by their index' from note notes2.json, sentence 2
+2024-09-29 23:42:03,789 - DEBUG - Comparing with retained sentence: 'Data structures refer to various ways of organizing and storing data, allowing efficient access and modification of the data' | Similarity: 0.7540 | Overlap Ratio: 0.0909
+2024-09-29 23:42:03,789 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
+2024-09-29 23:42:03,789 - INFO - Retained sentence: 'Arrays: A linear collection of elements, where each element is stored in contiguous memory. Arrays allow fast access to elements by their index'
+2024-09-29 23:42:03,789 - DEBUG - Processing sentence 3: 'Linked Lists: A sequence of nodes, where each node holds data and a reference to the next node. They allow dynamic resizing and efficient insertions or deletions' from note notes2.json, sentence 3
+2024-09-29 23:42:03,789 - DEBUG - Comparing with retained sentence: 'Arrays: A linear collection of elements, where each element is stored in contiguous memory. Arrays allow fast access to elements by their index' | Similarity: 0.7703 | Overlap Ratio: 0.0714
+2024-09-29 23:42:03,789 - DEBUG - Comparing with retained sentence: 'Data structures refer to various ways of organizing and storing data, allowing efficient access and modification of the data' | Similarity: 0.7542 | Overlap Ratio: 0.1429
+2024-09-29 23:42:03,789 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 3.
+2024-09-29 23:42:03,789 - INFO - Retained sentence: 'Linked Lists: A sequence of nodes, where each node holds data and a reference to the next node. They allow dynamic resizing and efficient insertions or deletions'
+2024-09-29 23:42:03,789 - DEBUG - Processing sentence 4: 'Data structures are frameworks used to store and manage data, optimizing access and modifications' from note notes3.json, sentence 1
+2024-09-29 23:42:03,789 - DEBUG - Comparing with retained sentence: 'Data structures refer to various ways of organizing and storing data, allowing efficient access and modification of the data' | Similarity: 0.7602 | Overlap Ratio: 0.3636
+2024-09-29 23:42:03,789 - DEBUG - Comparing with retained sentence: 'Arrays: A linear collection of elements, where each element is stored in contiguous memory. Arrays allow fast access to elements by their index' | Similarity: 0.7395 | Overlap Ratio: 0.0909
+2024-09-29 23:42:03,789 - DEBUG - Comparing with retained sentence: 'Linked Lists: A sequence of nodes, where each node holds data and a reference to the next node. They allow dynamic resizing and efficient insertions or deletions' | Similarity: 0.7350 | Overlap Ratio: 0.0714
+2024-09-29 23:42:03,789 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 4.
+2024-09-29 23:42:03,789 - INFO - Retained sentence: 'Data structures are frameworks used to store and manage data, optimizing access and modifications'
+2024-09-29 23:42:03,789 - DEBUG - Processing sentence 5: 'Arrays: Ordered collections of elements stored in contiguous memory. Arrays offer constant-time element access but require resizing to accommodate larger data' from note notes3.json, sentence 2
+2024-09-29 23:42:03,789 - DEBUG - Comparing with retained sentence: 'Arrays: A linear collection of elements, where each element is stored in contiguous memory. Arrays allow fast access to elements by their index' | Similarity: 0.7570 | Overlap Ratio: 0.4375
+2024-09-29 23:42:03,789 - INFO - Replacing retained sentence 'Arrays: A linear collection of elements, where each element is stored in contiguous memory. Arrays allow fast access to elements by their index' (avg word length 6.36) with 'Arrays: Ordered collections of elements stored in contiguous memory. Arrays offer constant-time element access but require resizing to accommodate larger data' (avg word length 6.78) due to higher average word length.
+2024-09-29 23:42:03,789 - DEBUG - Processing sentence 6: 'Linked Lists: Composed of nodes, where each node holds data and a link to the next node. Linked lists allow dynamic sizing and are ideal for scenarios where data is frequently added or removed' from note notes3.json, sentence 3
+2024-09-29 23:42:03,789 - DEBUG - Comparing with retained sentence: 'Linked Lists: A sequence of nodes, where each node holds data and a reference to the next node. They allow dynamic resizing and efficient insertions or deletions' | Similarity: 0.7684 | Overlap Ratio: 0.5000
+2024-09-29 23:42:03,789 - INFO - Discarding sentence 'Linked Lists: Composed of nodes, where each node holds data and a link to the next node. Linked lists allow dynamic sizing and are ideal for scenarios where data is frequently added or removed' (avg word length 5.38) due to duplication with retained sentence 'Linked Lists: A sequence of nodes, where each node holds data and a reference to the next node. They allow dynamic resizing and efficient insertions or deletions' (avg word length 6.06).
+2024-09-29 23:42:03,789 - INFO - Total retained sentences after deduplication: 4
+2024-09-29 23:42:03,789 - DEBUG - Preprocessed and cached sentence: 'Sorting algorithms are methods to rearrange data in a specific order, such as ascending or descending. Two popular sorting algorithms are:' -> 'sorting algorithm method rearrange data specific order ascending descending two popular sorting algorithm', avg_word_length: 7.153846153846154
+2024-09-29 23:42:03,789 - DEBUG - Preprocessed and cached sentence: 'Bubble Sort: Repeatedly swaps adjacent elements if they are in the wrong order. Time complexity: O(n²).' -> 'bubble sort repeatedly swap adjacent element wrong order time complexity n²', avg_word_length: 5.909090909090909
+2024-09-29 23:42:03,789 - DEBUG - Preprocessed and cached sentence: 'Merge Sort: A divide-and-conquer algorithm that splits the array into halves, recursively sorts them, and merges them back together. Time complexity: O(n log n).' -> 'merge sort divide conquer algorithm split array half recursively sort merges back together time complexity n log n', avg_word_length: 5.388888888888889
+2024-09-29 23:42:03,789 - DEBUG - Found 3 unique preprocessed bullets in header group 'Common Sorting Techniques'.
+2024-09-29 23:42:03,789 - INFO - Generating embeddings for bullets in header 'Common Sorting Techniques' (Group 4/5)...
+2024-09-29 23:42:03,789 - DEBUG - Generated embedding for text: 'merge sort divide conquer algo...'
+2024-09-29 23:42:03,789 - DEBUG - Generated and cached embedding for bullet: 'merge sort divide conquer algorithm split array half recursively sort merges back together time complexity n log n'
+2024-09-29 23:42:03,789 - DEBUG - Generated embedding for text: 'bubble sort repeatedly swap ad...'
+2024-09-29 23:42:03,789 - DEBUG - Generated and cached embedding for bullet: 'bubble sort repeatedly swap adjacent element wrong order time complexity n²'
+2024-09-29 23:42:03,789 - DEBUG - Generated embedding for text: 'sorting algorithm method rearr...'
+2024-09-29 23:42:03,789 - DEBUG - Generated and cached embedding for bullet: 'sorting algorithm method rearrange data specific order ascending descending two popular sorting algorithm'
+2024-09-29 23:42:03,789 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
+2024-09-29 23:42:03,789 - DEBUG - Processing sentence 1: 'Sorting algorithms are methods to rearrange data in a specific order, such as ascending or descending. Two popular sorting algorithms are:' from note notes2.json, sentence 1
+2024-09-29 23:42:03,789 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
+2024-09-29 23:42:03,789 - INFO - Retained sentence: 'Sorting algorithms are methods to rearrange data in a specific order, such as ascending or descending. Two popular sorting algorithms are:'
+2024-09-29 23:42:03,790 - DEBUG - Processing sentence 2: 'Bubble Sort: Repeatedly swaps adjacent elements if they are in the wrong order. Time complexity: O(n²)' from note notes2.json, sentence 2
+2024-09-29 23:42:03,790 - DEBUG - Comparing with retained sentence: 'Sorting algorithms are methods to rearrange data in a specific order, such as ascending or descending. Two popular sorting algorithms are:' | Similarity: 0.7473 | Overlap Ratio: 0.0909
+2024-09-29 23:42:03,790 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
+2024-09-29 23:42:03,790 - INFO - Retained sentence: 'Bubble Sort: Repeatedly swaps adjacent elements if they are in the wrong order. Time complexity: O(n²)'
+2024-09-29 23:42:03,790 - DEBUG - Processing sentence 3: 'Merge Sort: A divide-and-conquer algorithm that splits the array into halves, recursively sorts them, and merges them back together. Time complexity: O(n log n)' from note notes2.json, sentence 3
+2024-09-29 23:42:03,790 - DEBUG - Comparing with retained sentence: 'Bubble Sort: Repeatedly swaps adjacent elements if they are in the wrong order. Time complexity: O(n²)' | Similarity: 0.7509 | Overlap Ratio: 0.1875
+2024-09-29 23:42:03,790 - DEBUG - Comparing with retained sentence: 'Sorting algorithms are methods to rearrange data in a specific order, such as ascending or descending. Two popular sorting algorithms are:' | Similarity: 0.7384 | Overlap Ratio: 0.0625
+2024-09-29 23:42:03,790 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 3.
+2024-09-29 23:42:03,790 - INFO - Retained sentence: 'Merge Sort: A divide-and-conquer algorithm that splits the array into halves, recursively sorts them, and merges them back together. Time complexity: O(n log n)'
+2024-09-29 23:42:03,790 - INFO - Total retained sentences after deduplication: 3
+2024-09-29 23:42:03,790 - DEBUG - Preprocessed and cached sentence: 'Search algorithms are used to locate elements in data structures. Two widely used search algorithms are:' -> 'search algorithm used locate element data structure two widely used search algorithm', avg_word_length: 6.083333333333333
+2024-09-29 23:42:03,790 - DEBUG - Preprocessed and cached sentence: 'Linear Search: Sequentially examines each element in a list until the target value is found. Time complexity: O(n).' -> 'linear search sequentially examines element list target value found time complexity n', avg_word_length: 6.166666666666667
+2024-09-29 23:42:03,790 - DEBUG - Preprocessed and cached sentence: 'Binary Search: This algorithm works on sorted arrays, repeatedly dividing the search range in half until the target value is found. Time complexity: O(log n).' -> 'binary search algorithm work sorted array repeatedly dividing search range half target value found time complexity log n', avg_word_length: 5.722222222222222
+2024-09-29 23:42:03,790 - DEBUG - Found 3 unique preprocessed bullets in header group 'Efficient Search Techniques'.
+2024-09-29 23:42:03,790 - INFO - Generating embeddings for bullets in header 'Efficient Search Techniques' (Group 5/5)...
+2024-09-29 23:42:03,790 - DEBUG - Generated embedding for text: 'search algorithm used locate e...'
+2024-09-29 23:42:03,790 - DEBUG - Generated and cached embedding for bullet: 'search algorithm used locate element data structure two widely used search algorithm'
+2024-09-29 23:42:03,790 - DEBUG - Generated embedding for text: 'linear search sequentially exa...'
+2024-09-29 23:42:03,790 - DEBUG - Generated and cached embedding for bullet: 'linear search sequentially examines element list target value found time complexity n'
+2024-09-29 23:42:03,790 - DEBUG - Generated embedding for text: 'binary search algorithm work s...'
+2024-09-29 23:42:03,790 - DEBUG - Generated and cached embedding for bullet: 'binary search algorithm work sorted array repeatedly dividing search range half target value found time complexity log n'
+2024-09-29 23:42:03,790 - DEBUG - FAISS IndexFlatIP created for dimension: 768.
+2024-09-29 23:42:03,790 - DEBUG - Processing sentence 1: 'Search algorithms are used to locate elements in data structures. Two widely used search algorithms are:' from note notes3.json, sentence 1
+2024-09-29 23:42:03,790 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 1.
+2024-09-29 23:42:03,790 - INFO - Retained sentence: 'Search algorithms are used to locate elements in data structures. Two widely used search algorithms are:'
+2024-09-29 23:42:03,790 - DEBUG - Processing sentence 2: 'Linear Search: Sequentially examines each element in a list until the target value is found. Time complexity: O(n)' from note notes3.json, sentence 2
+2024-09-29 23:42:03,790 - DEBUG - Comparing with retained sentence: 'Search algorithms are used to locate elements in data structures. Two widely used search algorithms are:' | Similarity: 0.7247 | Overlap Ratio: 0.1667
+2024-09-29 23:42:03,790 - DEBUG - Added 1 embeddings to FAISS index. Total embeddings: 2.
+2024-09-29 23:42:03,790 - INFO - Retained sentence: 'Linear Search: Sequentially examines each element in a list until the target value is found. Time complexity: O(n)'
+2024-09-29 23:42:03,790 - DEBUG - Processing sentence 3: 'Binary Search: This algorithm works on sorted arrays, repeatedly dividing the search range in half until the target value is found. Time complexity: O(log n)' from note notes3.json, sentence 3
+2024-09-29 23:42:03,790 - DEBUG - Comparing with retained sentence: 'Search algorithms are used to locate elements in data structures. Two widely used search algorithms are:' | Similarity: 0.7711 | Overlap Ratio: 0.1176
+2024-09-29 23:42:03,790 - DEBUG - Comparing with retained sentence: 'Linear Search: Sequentially examines each element in a list until the target value is found. Time complexity: O(n)' | Similarity: 0.7259 | Overlap Ratio: 0.4118
+2024-09-29 23:42:03,790 - INFO - Discarding sentence 'Binary Search: This algorithm works on sorted arrays, repeatedly dividing the search range in half until the target value is found. Time complexity: O(log n)' (avg word length 5.72) due to duplication with retained sentence 'Linear Search: Sequentially examines each element in a list until the target value is found. Time complexity: O(n)' (avg word length 6.17).
+2024-09-29 23:42:03,790 - INFO - Total retained sentences after deduplication: 2

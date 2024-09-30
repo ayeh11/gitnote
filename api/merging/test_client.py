@@ -7,7 +7,8 @@ import nltk
 import os
 from merge_logic import load_notes_from_files, merge_multiple_notes
 
-directory = os.path.join(os.path.dirname(__file__), '..', 'uploads')
+# Adjust the directory to point to the directory where your JSON files are located
+directory = os.path.join(os.path.dirname(__file__), 'test_files')  # Assuming 'test_files' is in the same directory
 
 def configure_logging():
     """
@@ -51,33 +52,32 @@ def main():
     # Perform deduplication-based merging for multiple notes
     merged_text, merged_headers, sentence_to_sources = merge_multiple_notes(notes)
 
-    # Structure the merged results as per your request
+    # Structure the merged results to include conflicts for manual resolution
     headers_output = []
     for merged_header in merged_headers:
         header_name = merged_header['header_name']
         header_id = merged_header['header_id']
+        note_id = merged_header['note_id']
+        conflicts = merged_header['conflicts']
         bullets_output = []
         for bullet_info in merged_header['bullets']:
-            note_id, bullet_id, bullet_text, _ = bullet_info
+            bullet_note_id, bullet_id, bullet_text, _ = bullet_info
             data = merged_header['bullet_to_sources'][bullet_text]
-            bullet_output = {
-                "note_id": data["note_id"],
-                "bullet_id": data["bullet_id"],
-                "text": data["text"],
-                "conflicts": data["conflicts"]
-            }
-            bullets_output.append(bullet_output)
+            bullets_output.append({
+                "bullet_id": f"{bullet_note_id}_{bullet_id}",
+                "accepted_bullet_text": data["text"],
+                "conflicting_bullets": data["conflicts"]
+            })
         headers_output.append({
-            "note_id": merged_header['note_id'],
             "header_id": header_id,
-            "header_name": header_name,
-            "conflicts": merged_header['conflicts'],
+            "accepted_header_name": header_name,
+            "note_id": note_id,
+            "conflicting_headers": conflicts,
             "bullets": bullets_output
         })
 
     # Create the merged_results dictionary
     merged_results = {
-        "merged_text": merged_text,
         "headers": headers_output
     }
 
@@ -85,11 +85,16 @@ def main():
     with open(output_file, "w", encoding='utf-8') as f:
         json.dump(merged_results, f, indent=4)
 
+    # Write the merged text to 'defaultmerge.txt' with actual line breaks
+    with open("defaultmerge.txt", "w", encoding='utf-8') as f:
+        f.write(merged_text)
+
     # End timer and calculate the duration
     end_time = time.time()
     time_taken = end_time - start_time
 
     print(f"Merged results saved to {output_file}")
+    print(f"Merged text saved to defaultmerge.txt")
     print(f"Time taken for the merging process: {time_taken:.4f} seconds")
 
 if __name__ == "__main__":
