@@ -1,0 +1,10 @@
+[
+    {
+        "text": "Intro to Algorithms",
+        "section-text": "- Algorithms solve complex problems\n- Divide and conquer is a useful technique\n- Algorithm complexity matters"
+    },
+    {
+        "text": "Sorting",
+        "section-text": "- Quick sort is fast\n- Merge sort is stable\n- Bubble sort is simple but slow"
+    }
+]
