@@ -40,7 +40,8 @@ const Footer = () => {
   }, [isHidden]);
 
   return (
-    <footer className={`footer ${!isHidden ? 'footer-visible' : ''}`}>
+    // <footer className={`footer ${!isHidden ? 'footer-visible' : ''}`}>
+    <footer className={`footer false' : ''}`}>
       <div className="footer-content">
         <div className="footer-links">
           <div className="footer-column">

@@ -4,7 +4,10 @@ import logging
 import json
 import time
 import nltk
+import os
 from merge_logic import load_notes_from_files, merge_multiple_notes
+
+directory = os.path.join(os.path.dirname(__file__), '..', 'uploads')
 
 def configure_logging():
     """
@@ -37,7 +40,7 @@ def main():
     print("Starting the merging process...")
 
     # Load all notes from JSON files in 'test_files' directory
-    notes = load_notes_from_files(directory="test_files")
+    notes = load_notes_from_files(directory)
 
     if not notes:
         logging.info("No note files found. Exiting.")
