@@ -10,29 +10,47 @@ async def extract_headers(words, normal_font_size, size_threshold):
     current_header = ''
     current_size = None
     current_doctop = None
+    last_doctop = None  # Track the position of the last processed word
 
     for word in words:
         text = word['text']
         size = round(word['size'], 1)
         doctop = word['doctop']
 
+        # Detect headers based on size
         if size >= normal_font_size * size_threshold:
-            if current_size is None or (abs(size - current_size) < 0.1):
-                current_header += ' ' + text
-                current_size = size
-                current_doctop = doctop
+            # If this is the first word of the header or the size is consistent with the current header
+            if current_size is None or abs(size - current_size) < 0.1:
+                # If this is the first word of a new header (detect via significant doctop gap)
+                if current_header == '' or (last_doctop is not None and abs(doctop - last_doctop) > 5):  # Small gap for continuing a header
+                    # Append the previous header if it's already populated
+                    if current_header:
+                        headers.append({
+                            'text': current_header.strip(),
+                            'doctop': current_doctop
+                        })
+                        current_header = ''
+
+                    # Start a new header
+                    current_header = text
+                    current_size = size
+                    current_doctop = doctop
+                else:
+                    # Continue appending words to the current header if on the same line
+                    current_header += ' ' + text
             else:
-                # Store the previous header
+                # Size has changed, so it's likely a new header
                 headers.append({
                     'text': current_header.strip(),
                     'doctop': current_doctop
                 })
-                # Reset for the new header
                 current_header = text
                 current_size = size
                 current_doctop = doctop
 
-    # Append the last header
+            last_doctop = doctop  # Update last word position
+
+    # Append the last header if it exists
     if current_header:
         headers.append({
             'text': current_header.strip(),
@@ -40,6 +58,7 @@ async def extract_headers(words, normal_font_size, size_threshold):
         })
 
     return headers
+
 
 def extract_sections(page, headers):
     sections = []
@@ -78,14 +97,15 @@ def extract_sections(page, headers):
 
 
 def parse_bullet_points(text):
-    # Bullet patterns
+    # Bullet patterns including their Unicode equivalents
     bullet_patterns = [
-        r'(\s*[-•*]\s+)',            # Matches bullets like - Item
-        r'(\s*\d+\.\s+)',            # Matches numbered lists: 1. Item
-        r'(\s*\(\d+\)\s+)',          # Matches numbered lists: (1) Item
-        r'(\s*•\s+)',                # Matches bullet point: • Item
-        r'(\s*▪\s+)',                # Matches bullet point: ▪ Item
-        r'(\s*●\s+)'                 # Matches bullet point: ● Item
+        r'(\s*[-]\s+)',               # Matches dash bullet (-) 
+        r'(\s*\u2022\s+)',            # Matches bullet point (•) (Unicode: \u2022)
+        r'(\s*\u25cb\s+)',            # Matches empty bullet point (Unicode: \u25cb)
+        r'(\s*\u25aa\s+)',            # Matches black small square bullet (▪) (Unicode: \u25aa)
+        r'(\s*\u25cf\s+)',            # Matches black circle bullet (●) (Unicode: \u25cf)
+        r'(\s*\d+\.\s+)',             # Matches numbered lists (1. 2. 3.)
+        r'(\s*\u2043\s+)'             # Matches hyphen bullet (⁃) (Unicode: \u2043)
     ]
 
     # Combine all bullet patterns into one regex to split the text
@@ -101,8 +121,8 @@ def parse_bullet_points(text):
     current_entry = ''
 
     for segment in segments:
-        # Check if this segment is likely a bullet point starter
-        if re.match(r'^[-•*]|^\d+\.|^\(\d+\)|^•|^▪|^●', segment):
+        # Check if this segment is likely a bullet point starter (including unicode characters)
+        if re.match(r'^[-\u2022\u25cb\u25aa\u25cf\u2043]|^\d+\.', segment):
             # If we have accumulated text, store it as an entry
             if current_entry:
                 parsed_sections.append(current_entry.strip())
@@ -118,6 +138,10 @@ def parse_bullet_points(text):
 
     # Remove dashes that appear at the start of an entry, but preserve mid-sentence dashes
     parsed_sections = [re.sub(r'^\s*-\s*', '', entry) for entry in parsed_sections]
+
+    # Remove any Unicode bullet characters that remain in the actual text
+    unicode_bullet_removal = r'[\u2022\u25cb\u25aa\u25cf\u2043]'
+    parsed_sections = [re.sub(unicode_bullet_removal, '', entry) for entry in parsed_sections]
 
     # Filter out headers or entries with no text content
     parsed_sections = [entry for entry in parsed_sections if entry.strip()]
@@ -182,9 +206,8 @@ async def process_pdfs(pdf_paths, size_threshold=1.2):
 # Testing
 async def main():
     pdf_paths = [
-        'data/example1.pdf',
-        'data/example2.pdf',
-        'data/example3.pdf'
+        'data/data_ver1.pdf',
+        'data/data_ver2.pdf'
     ]
     await process_pdfs(pdf_paths, size_threshold=1.2)
 
