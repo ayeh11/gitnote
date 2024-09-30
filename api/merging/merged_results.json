@@ -1,0 +1,231 @@
+{
+    "merged_text": "Introduction to Algorithms:\n- Algorithms solve complex problems\n- Divide and conquer is a common algorithm technique\n- Recursion is useful\n- Algorithm complexity matters\nSorting Algorithms:\n- Quick sort is efficient\n- Merge sort is a stable sorting algorithm\n- Bubble sort is simple but slow\nSection 1 The Mongols:\n- I like to eat pie and cake\n- the mongols were cool\n- i think today is great\nAdvanced Data Structures:\n- Trees are hierarchical structures\n- Graphs represent relations\n- Hash tables provide fast lookups\n- Trees are important\n- Hash maps store key-value pairs\nGraph Algorithms:\n- Dijkstra's algorithm finds shortest paths\n- Depth-first search explores as far as possible along each branch\nGraph Theory:\n- Dijkstra's algorithm computes shortest paths\n- Depth-first search is used in various algorithms",
+    "headers": [
+        {
+            "note_id": 1,
+            "header_id": 0,
+            "header_name": "Introduction to Algorithms",
+            "conflicts": [
+                {
+                    "note_id": 2,
+                    "header_id": 2,
+                    "header_name": "Intro to Algorithms",
+                    "similarity": 0.9817648530006409,
+                    "overlap_ratio": 0.6666666666666666
+                }
+            ],
+            "bullets": [
+                {
+                    "note_id": 2,
+                    "bullet_id": 1,
+                    "text": "Algorithms solve complex problems",
+                    "conflicts": [
+                        {
+                            "note_id": 1,
+                            "bullet_id": 1,
+                            "text": "Algorithms are used to solve problems",
+                            "similarity": 0.8459811210632324,
+                            "overlap_ratio": 0.75
+                        }
+                    ]
+                },
+                {
+                    "note_id": 1,
+                    "bullet_id": 2,
+                    "text": "Divide and conquer is a common algorithm technique",
+                    "conflicts": [
+                        {
+                            "note_id": 2,
+                            "bullet_id": 2,
+                            "text": "Divide and conquer is a useful technique",
+                            "similarity": 0.8008301258087158,
+                            "overlap_ratio": 0.6
+                        }
+                    ]
+                },
+                {
+                    "note_id": 1,
+                    "bullet_id": 3,
+                    "text": "Recursion is useful",
+                    "conflicts": []
+                },
+                {
+                    "note_id": 2,
+                    "bullet_id": 3,
+                    "text": "Algorithm complexity matters",
+                    "conflicts": []
+                }
+            ]
+        },
+        {
+            "note_id": 1,
+            "header_id": 1,
+            "header_name": "Sorting Algorithms",
+            "conflicts": [
+                {
+                    "note_id": 2,
+                    "header_id": 3,
+                    "header_name": "Sorting",
+                    "similarity": 0.8333340883255005,
+                    "overlap_ratio": 0.5
+                }
+            ],
+            "bullets": [
+                {
+                    "note_id": 1,
+                    "bullet_id": 1,
+                    "text": "Quick sort is efficient",
+                    "conflicts": [
+                        {
+                            "note_id": 2,
+                            "bullet_id": 1,
+                            "text": "Quick sort is fast",
+                            "similarity": 0.9540605545043945,
+                            "overlap_ratio": 0.6666666666666666
+                        }
+                    ]
+                },
+                {
+                    "note_id": 1,
+                    "bullet_id": 2,
+                    "text": "Merge sort is a stable sorting algorithm",
+                    "conflicts": [
+                        {
+                            "note_id": 2,
+                            "bullet_id": 2,
+                            "text": "Merge sort is stable",
+                            "similarity": 0.8665176033973694,
+                            "overlap_ratio": 0.6
+                        }
+                    ]
+                },
+                {
+                    "note_id": 2,
+                    "bullet_id": 3,
+                    "text": "Bubble sort is simple but slow",
+                    "conflicts": []
+                }
+            ]
+        },
+        {
+            "note_id": 3,
+            "header_id": 4,
+            "header_name": "Section 1 The Mongols",
+            "conflicts": [],
+            "bullets": [
+                {
+                    "note_id": 3,
+                    "bullet_id": 1,
+                    "text": "I like to eat pie and cake",
+                    "conflicts": []
+                },
+                {
+                    "note_id": 3,
+                    "bullet_id": 2,
+                    "text": "the mongols were cool",
+                    "conflicts": []
+                },
+                {
+                    "note_id": 3,
+                    "bullet_id": 3,
+                    "text": "i think today is great",
+                    "conflicts": []
+                }
+            ]
+        },
+        {
+            "note_id": 4,
+            "header_id": 5,
+            "header_name": "Advanced Data Structures",
+            "conflicts": [
+                {
+                    "note_id": 5,
+                    "header_id": 7,
+                    "header_name": "Data Structures",
+                    "similarity": 0.9072680473327637,
+                    "overlap_ratio": 0.6666666666666666
+                }
+            ],
+            "bullets": [
+                {
+                    "note_id": 4,
+                    "bullet_id": 1,
+                    "text": "Trees are hierarchical structures",
+                    "conflicts": []
+                },
+                {
+                    "note_id": 5,
+                    "bullet_id": 2,
+                    "text": "Graphs represent relations",
+                    "conflicts": [
+                        {
+                            "note_id": 4,
+                            "bullet_id": 2,
+                            "text": "Graphs can represent networks",
+                            "similarity": 0.702907383441925,
+                            "overlap_ratio": 0.6666666666666666
+                        }
+                    ]
+                },
+                {
+                    "note_id": 4,
+                    "bullet_id": 3,
+                    "text": "Hash tables provide fast lookups",
+                    "conflicts": []
+                },
+                {
+                    "note_id": 5,
+                    "bullet_id": 1,
+                    "text": "Trees are important",
+                    "conflicts": []
+                },
+                {
+                    "note_id": 5,
+                    "bullet_id": 3,
+                    "text": "Hash maps store key-value pairs",
+                    "conflicts": []
+                }
+            ]
+        },
+        {
+            "note_id": 4,
+            "header_id": 6,
+            "header_name": "Graph Algorithms",
+            "conflicts": [],
+            "bullets": [
+                {
+                    "note_id": 4,
+                    "bullet_id": 1,
+                    "text": "Dijkstra's algorithm finds shortest paths",
+                    "conflicts": []
+                },
+                {
+                    "note_id": 4,
+                    "bullet_id": 2,
+                    "text": "Depth-first search explores as far as possible along each branch",
+                    "conflicts": []
+                }
+            ]
+        },
+        {
+            "note_id": 5,
+            "header_id": 8,
+            "header_name": "Graph Theory",
+            "conflicts": [],
+            "bullets": [
+                {
+                    "note_id": 5,
+                    "bullet_id": 1,
+                    "text": "Dijkstra's algorithm computes shortest paths",
+                    "conflicts": []
+                },
+                {
+                    "note_id": 5,
+                    "bullet_id": 2,
+                    "text": "Depth-first search is used in various algorithms",
+                    "conflicts": []
+                }
+            ]
+        }
+    ]
+}
