@@ -1,6 +1,8 @@
 certifi==2024.8.30
+cffi==1.17.1
 charset-normalizer==3.3.2
 click==8.1.7
+cryptography==43.0.1
 faiss-cpu==1.8.0.post1
 filelock==3.16.1
 fsspec==2024.9.0
@@ -14,7 +16,11 @@ networkx==3.3
 nltk==3.9.1
 numpy==1.26.4
 packaging==24.1
+pdfminer.six==20231228
+pdfplumber==0.11.4
 pillow==10.4.0
+pycparser==2.22
+pypdfium2==4.30.0
 PyYAML==6.0.2
 regex==2024.9.11
 requests==2.32.3
@@ -32,3 +38,4 @@ tqdm==4.66.5
 transformers==4.45.1
 typing_extensions==4.12.2
 urllib3==2.2.3
+wheel==0.44.0

@@ -1,0 +1,416 @@
+{
+    "example1.pdf": {
+        "pdf_id": "example1.pdf",
+        "headers": [
+            {
+                "text": "Week 3 Week 2",
+                "page_num": 1,
+                "section_text": [
+                    "Git overview Building and running C programs Java vs C",
+                    "Java (safer)",
+                    "null reference checking",
+                    "Automatic array-bounds checking and memory management (garbage collection)",
+                    "Other safety features",
+                    "C (faster)",
+                    "Null pointer checking",
+                    "Manual bounds and memory management gcc217 charcount.c \u2013o charcount",
+                    "1. Preprocess: a. Command: gcc217 \u2013E charcount.c > charcount.i b. Functionalities i. Removes comments ii. Expanding macros iii. Handles preprocessor directives c. Examples: i. Preprocessor replaces #include <stdio.h> with contents of /usr/include/stdio.h"
+                ]
+            },
+            {
+                "text": "Week 1",
+                "page_num": 4,
+                "section_text": [
+                    "Operating system:",
+                    "Piece of software that controls interaction between programs and hardware",
+                    "Also called \u201ckernel\u201d",
+                    "Modern kernel examples:",
+                    "unix linage (Linux, XNU)",
+                    "vms lineage (windows NT)",
+                    "Modern OS examples:",
+                    "linux kernel (Linux/GNU, Android)",
+                    "XNU kernel (MacOS, iOS)"
+                ]
+            }
+        ]
+    },
+    "example2.pdf": {
+        "pdf_id": "example2.pdf",
+        "headers": [
+            {
+                "text": "9/26 The Xiongnu Art and Culture",
+                "page_num": 1,
+                "section_text": [
+                    "Xiongnu and Xiongnu Art",
+                    "\u25cf Sima Qian (145-86 BC) and historiography:",
+                    "\u25cf Li Ling fought Shanyu: lost but fought bravely. Xiongnu surrounded Li Ling, Li Ling surrendered (Sima Qian record)",
+                    "\u25cf More of a historical source, start to have possibility for cross source corroboration",
+                    "\u25cf Military record: much more detailed",
+                    "\u25cf Li Ling had fewer than 5000, but faced tens of thousands enemy troops. They killed more than the number of troops in their army, enemy had no time to rescue dying, thus leaders (Shanyu) summoned Wise Kings of Right and Left and surrounded Li Ling\u2019s troops and anyone that could draw a bow \u2192 defeated",
+                    "\u25cf Anyone that could draw a bow = everyone. Although population is smaller, average nomadic resident is very able",
+                    "\u25cf His record is valuable because he\u2019s personally involved in this, what he writes down is very detailed and fairly accurate",
+                    "\u25cf Zhang Qian (164-114):",
+                    "\u25cf Important because he\u2019s associated with the creation of the the trans-eurasian network of exchange (Silk Road)",
+                    "\u25cf Attempted to establish diplomacy with Xiongnu, gets thrown in jail",
+                    "\u25cf First time we see continent tightly integrated",
+                    "\u25cf Brought back information about the West to China",
+                    "\u25cf Da-qin: Place often identified as Roman Empire",
+                    "\u25cf The incentive/mechanism through which the broader connection was discovered, all of these processes played out in the context of the conflict between the nomads and the sedentary state",
+                    "\u25cf Wang Zhaojun (52-15 BC):",
+                    "\u25cf Ranked among the ladies in the emperor\u2019s harem",
+                    "\u25cf Started to feel a estranged because Emperor was not interested",
+                    "\u25cf Story:",
+                    "\u25cf Shanyu dispatched envoys to participate in Han court\u2019s celebration, Emperor Yuan arranged for performers, musicians, ordered everyone in his harem to come out in fine makeup",
+                    "\u25cf During celebration Yuan asks what would make Chanyu happy: envoy lamented women are ugly, Emperor asks to present one woman to the Chanyu, Zhaojun volunteers",
+                    "\u25cf She moved to Xiongnu, Chanyu super happy. Zhaojun resented that Yuan failed to show favor, but she wasn\u2019t happy. Yearned for her homeland"
+                ]
+            },
+            {
+                "text": "9/24 The Xiongnu Empire",
+                "page_num": 2,
+                "section_text": [
+                    "First nomadic empire (governmentally wise)",
+                    "Mostly north of yellow river, some south and taklamakan region desert area",
+                    "Great wall of china",
+                    "Began by Ming dynasty in 14th century",
+                    "Start construction because of Xiongnu vs sedentary peoples Rise of xiongnu",
+                    "Warring states period (476",
+                    "221 BCE)",
+                    "Skirmishes with the northern states",
+                    "Qin Dynasty (221",
+                    "207 BCE)",
+                    "215 BCE Meng Tian expelled Xiongnu beyond the Ordos region",
+                    "Xiongnu unification was a reaction to Qing and Han Dynasty unification in the south",
+                    "Terra cotta soldiers shows state that\u2019s obsessed with military power",
+                    "Recently discovered gold camel",
+                    "Full size statues really rare unless buddhism Height of the Xiongnu Power",
+                    "Xiongu empire",
+                    "Unification and bureaucratization under Motun (209-174 BCE)",
+                    "Siege at Baideng (200 BCE)",
+                    "Wars with Han during emperor Wudi (156-87 BCE)",
+                    "Fought each other to standstill",
+                    "Han dynasty (202 BCE to 220 CE) Fall of Xiongnu"
+                ]
+            },
+            {
+                "text": "Reading",
+                "page_num": 3,
+                "section_text": [
+                    "Sima Qian, Chapter on Xiongnu from Records of the Grand Historian, translated by Burton Watson, (Columbia University Press, 1961), 155\u2013",
+                    "193.",
+                    "1. The Rise of the Hsiung-nu Empire and Political Unification: The Hsiung-nu's emergence as a powerful nomadic empire marked a significant shift in the dynamics between China and its northern neighbors. Before the Han Dynasty, Chinese states could effectively manage and defeat nomadic incursions. However, during the Han period, the Hsiung-nu consolidated power under leaders like Modun, establishing a unified state that posed a formidable military threat to China. For example, Modun's legendary rise to power involved ruthless actions, such as training his soldiers to absolute loyalty by having them execute his orders without question, culminating in his father's assassination and his own ascension as ch'an-y\u00fc (supreme leader).",
+                    "2. Formation of a Bipolar World Order and Han Foreign Policy: The unification of the Hsiung-nu created a bipolar power structure in East Asia, with China and the Hsiung-nu as two dominant forces. This led to the development of the Han dynasty\u2019s \"ho-ch\u2019in\" or appeasement policy, where China paid tribute to the Hsiung-nu in the form of silk, bullion, and grains to maintain peace. This policy was a marked departure from previous aggressive stances, reflecting China's strategic shift to a defensive and diplomatic approach when confronted with the organized nomadic power.",
+                    "3. Economic and Social Factors in Nomadic State Formation: The document examines how economic pressures and social crises contributed to the formation of nomadic states like the Hsiung-nu. For instance, environmental challenges, such as harsh winters or droughts, could devastate nomadic herds, pushing tribes toward militarization and unification under a charismatic leader who could offer protection and stability. This militarization often led to the establishment of hierarchical and centralized political structures that replaced traditional, more egalitarian tribal systems.",
+                    "4. Ethnic Origins and Identity of the Hsiung-nu: The question of the Hsiung-nu's ethnic and linguistic origins has been a subject of long-standing debate among scholars. The Hsiung-nu were often seen as ancestors of later nomadic groups like the Turks,"
+                ]
+            },
+            {
+                "text": "9/19 Looking for the Scythians",
+                "page_num": 7,
+                "section_text": [
+                    "Perspectives",
+                    "Etic: refers to objective or outsider accounts",
+                    "Emic: refers to subjective or insider accounts Greek sources",
+                    "Herodotus: 'None who attacks them can escape, and none can catch them if they desire not to be found\u2019",
+                    "Hippocrates: called them impotent from riding horses",
+                    "Vase made with person wearing scythian clothing carved in",
+                    "Maps indicate that scythians were more western nomads Iranian sources",
+                    "Relief of Scythians wearing pointed caps and tribute frieze in the Persepolis",
+                    "Pointed caps and tribute frieze were how they\u2019re recognized from etic perspective",
+                    "Behistun inscription:",
+                    "Darius the King said that Scythians wear pointy hats",
+                    "Same as greek sources (more legit historical evidence)",
+                    "\u201cScythians who are beyond Sangliana\u201d",
+                    "Same as greek sources that say they are more western nomads Chinese sources",
+                    "Hanshu: tribes split up and moved to other locations to form more states",
+                    "Statue discovered in western china with pointy hat Scythian Art",
+                    "Textual sources are important but aren\u2019t the full picture and is biased",
+                    "Archaeologist dig up structures",
+                    "Places of worship, golden combs, sculptures, weapons",
+                    "Kurgans (big burial sites)",
+                    "In a circle underground",
+                    "Buried people with lots of items and horses",
+                    "Golden items like combs, belts, and clothes (status symbols)",
+                    "Shows that these are leaders of states",
+                    "Frozen tombs at Pazyryk",
+                    "Around Altai Mountains",
+                    "Burial chambers with wooden tomb and embalmed bodies",
+                    "Area was cold, so lots of things frozen",
+                    "Items made of wood and leather preserved",
+                    "Complete chariots, horse headdresses, fancily sculpted clothing",
+                    "HUGE felt carpets depicted horse riding",
+                    "Animal style art",
+                    "Most common theme in art: horse riding and predator pounces on prey"
+                ]
+            },
+            {
+                "text": "9/17 From the Indo-Europeans to the Scythians",
+                "page_num": 8,
+                "section_text": [
+                    "Animals",
+                    "Herded many animals: camels, cattle sheep, goats, horses",
+                    "Humans and pigs eat everything (so few pigs)",
+                    "Pigs compete with humans for food",
+                    "Does this have something to do with how certain religions don\u2019t eat pork?",
+                    "Cows",
+                    ":(",
+                    "need abundant water sources",
+                    "Less mobile, slower and less adapted to difficult terrains",
+                    "Cannot find own food in snow > have to be tended",
+                    ":)",
+                    "Self defense",
+                    "Superb source for meat and milk",
+                    "Sheep",
+                    ":(",
+                    "More meek",
+                    "Frolicking instinct",
+                    ":)",
+                    "Considered better quality meat",
+                    "Graze at the bottom of plants (diff from goat)",
+                    "Goat",
+                    ":(",
+                    "Less good meat",
+                    ":)",
+                    "More agile",
+                    "Stand on hind legs, eat top of plants",
+                    "More independent",
+                    "More productive, more adaptable to different types of plants as food",
+                    "Camels",
+                    "Two types: Arabian camel, Bactrian camel",
+                    ":(",
+                    "Meat no considered good quality",
+                    "Irritable, smelly, difficult to train",
+                    "Matures late (5 years), longer reproductive cycles",
+                    ":)"
+                ]
+            },
+            {
+                "text": "Reading",
+                "page_num": 10,
+                "section_text": [
+                    "Herodotus, Selections on the Scythians from Robert Strassler ed., The Landmark Herodotus, (Pantheon Books, 2007) 281-339 [4.1 to 4.144]. The text Herodotus on the Scythians provides a rich and detailed account of the Scythians, exploring their culture, customs, origins, and interactions with other nations. Herodotus paints a picture of the Scythians as a nomadic and warlike people, notable for their unique social practices, myths, and military strategies. Main Themes:",
+                    "1. Scythian Military Conflicts and Geography: \u25cb Herodotus describes the Scythians\u2019 conflicts with other nations, including their clashes with the Medes and the Persians, especially focusing on King Darius\u2019s campaign against them. The Scythians employed guerrilla tactics, retreating into their vast, difficult-to-navigate homeland, making it hard for enemies to defeat them. \u25cb Scythia's geography is portrayed as vast and inhospitable, with harsh winters and largely flat lands, which plays a role in both their military tactics and lifestyle.",
+                    "2. Cultural and Social Practices: \u25cb Herodotus highlights some of the more peculiar customs of the Scythians, including their treatment of slaves, such as blinding them for agricultural purposes like milking. Their nomadic lifestyle is closely linked to the use of horses, and they have distinct rituals, such as the use of horsewhips in place of weapons to assert dominance over their former slaves.",
+                    "3. Scythian Origins and Mythology: \u25cb The text delves into Scythian mythology, including the origin story of their race, which involves divine ancestry from Zeus and a river deity. It also discusses the myth of golden objects falling from the sky, which played a crucial role in determining the Scythians\u2019 royal lineage. \u25cb Herodotus also recounts various Greek myths connected to the Scythians, such as Herakles's encounter with a serpent-woman in Scythia, blending Greek mythology with Scythian traditions.",
+                    "4. Relations with Neighboring Peoples: \u25cb Herodotus frequently contrasts the Scythians with other peoples, like the Cimmerians and the Persians, and describes how their interactions shaped the region. He describes Scythian dominance and the eventual conflicts that arise from their territorial expansions and migrations. Key Quotes:",
+                    "1. On the harshness of Scythian geography: \u25cb \u201cThe entire land I am describing experiences such harsh winters that for eight months the frost is intolerable, and you could not create mud by pouring water on"
+                ]
+            },
+            {
+                "text": "9/12 Heartland of Eurasia",
+                "page_num": 14,
+                "section_text": [
+                    "Modern nomads",
+                    "Trucks (but would\u2019ve been on camel if not)",
+                    "Tents scaffolding",
+                    "Traded for wood",
+                    "Cameras and current tech",
+                    "Nomads can\u2019t out maneuver their enemies because drones can just follow",
+                    "Their speed isn\u2019t as fast now",
+                    "Spring location is in a national park"
+                ]
+            },
+            {
+                "text": "9/10 What is Pastoral Nomadism?",
+                "page_num": 15,
+                "section_text": [
+                    "Lived a nomadic style of life by herding animals"
+                ]
+            },
+            {
+                "text": "Reading",
+                "page_num": 16,
+                "section_text": [
+                    "Rudi Lindner, \u201cWhat was a Nomadic Tribe?\u201d Comparative Studies in Society and History 24.4 (1982), 689-",
+                    "711.",
+                    "1. Historians and sedentary societies have historically disfavored nomads, often describing them in pejorative terms. a. Emphasized raiding practices and painted as negative. This bias stems from the lack of direct documentation from the nomads themselves, as their mobile lifestyles left no archives. b. Physical mobility on horses and light travel restricted their ability to maintain written records, contributing to the scarcity of their historical narrative. i. mounted nomadic warriors, such as the Huns, didn\u2019t preserve documents because carrying paper would have limited their military efficiency",
+                    "2. Challenges in lacking direct archaeological and written evidence"
+                ]
+            },
+            {
+                "text": "9/5 The Geography of the Eurasian Continent",
+                "page_num": 22,
+                "section_text": [
+                    "Central arid stripe changes landscape",
+                    "Steppes around the central arid area",
+                    "Steppe: lots of inedible grass, animals",
+                    "People\u2019s relationship with the land is different, can\u2019t eat the plants ourselves so get them through animals",
+                    "Most populous area for nomads",
+                    "Less rainfall, colder",
+                    "Steppe highway: easier for nomads to travel by horses along the steppe parallel than through the desert",
+                    "Deserts were buffer to sedentary people in the south",
+                    "Great Wall of China",
+                    "Ming Dynasty",
+                    "Separated the sedentary and the nomadic",
+                    "Central Eurasia / Inner Asia / Central Asia",
+                    "Central eurasia: vast heartland of Europe and Asia extending from Northern Europe to East Asia and from Lapland and Siberia to the Persian Gulf and the Himalayas (basically everything)",
+                    "Everything we study fit here",
+                    "Inner asia: areas between China, russia, and parts of western asia",
+                    "Smaller than central eurasia (no europe)",
+                    "Central asia: former lands of USSR",
+                    "But not everyone use term in same way",
+                    "Major regions of \u201cNomadland\u201d (memorize map)",
+                    "Hungarian Plain",
+                    "Carpathian Mountains",
+                    "Black Sea",
+                    "Ponto Caspian Steppe",
+                    "Caucasus mountains",
+                    "Kazakh Steppe",
+                    "Mongolian Plateau",
+                    "Manchuria"
+                ]
+            }
+        ]
+    },
+    "example3.pdf": {
+        "pdf_id": "example3.pdf",
+        "headers": [
+            {
+                "text": "Notes:",
+                "page_num": 1,
+                "section_text": [
+                    "Scriptures",
+                    "Texts with authority",
+                    "Bible by itself has no authority, until people give it authority Scriptualization: when community gives book authority",
+                    "Ex. Seal of massachusetts bay company logo used bible to justify colonization",
+                    "Ex. memes from the christian community who love guns",
+                    "Ex. the big book by alcoholics anonymous",
+                    "Lines that have been scriptualized: \u201cI am an alcoholic\u201d \u201cone day at a time\u201d \u201cit works if you work it\u201d \u201ckeep it simple\u201d \u201cprogress not perfection\u201d Scriptualization: \u201c[A] social-psychological-political structure establishing its own reality\u201d by Vincent Wimbush",
+                    "the initial processes by which a scripture becomes a scripture, encompassing",
+                    "creation",
+                    "We do not know the creation at the moments of divine revelation",
+                    "Then it gets canonized (where community decides the authoritative version of this story)",
+                    "Ex \u201cwe the people\u201d didn\u2019t exist until it was written in preamble",
+                    "scriptural uptake",
+                    "A community that takes up that scripture and treats it as something special",
+                    "Difference between failed scripture and successful",
+                    "Ex. constitution was ratified by states",
+                    "The ongoing process by which scriptural status is",
+                    "maintained and used",
+                    "Scriptures maintained by people pointing to scripture and people continuously reading it",
+                    "People use it and keeps it relevant",
+                    "Ex. articles of confederation didn\u2019t work out Paratext: anything that is next to text, but not the text",
+                    "Ex. book of mormon has pictures, title, captions",
+                    "2 types:",
+                    "Peritext: connected, next to the text",
+                    "Epitext: separate, points back to text",
+                    "Ex. Star wars: peritext",
+                    "scrolling yellow text at the beginning, epi-text",
+                    "movie poster, movie actor interviews, trailers",
+                    "Aspects: commentary and indexing, translation and typography, application",
+                    "Suggest a certain kind of work and certain kind of reader",
+                    "Family bible is big, baby bible is tiny and lacy"
+                ]
+            },
+            {
+                "text": "Readings:",
+                "page_num": 2,
+                "section_text": [
+                    "Seth Perry, Bible Culture and Authority in the Early United States, Ch. 5, The Many Bibles of Joseph Smith. Scripturalization in Early Mormonism",
+                    "\u25cf Theme: One of the central themes is the process of scripturalization, wherein new texts\u2014especially those produced by Joseph Smith\u2014were quickly adopted and treated as scripture by the early Mormon community. This concept reflects the broader Protestant practice of treating texts as authoritative, but it was taken to new levels within early Mormonism.",
+                    "\u25cf Examples: The text illustrates this by recounting how Oliver Cowdery, one of Smith's earliest and most fervent supporters, used Smith\u2019s revelations as scripture almost immediately after they were issued. Cowdery's letters, for example, used Smith\u2019s revelations to encourage and admonish Hyrum Smith in a manner that mirrored how biblical citations were used, reflecting a rhetorical performance of scripturalization that cemented Smith's revelations as authoritative texts. Cowdery\u2019s use of selective citation from Smith\u2019s revelations, which emphasized divine commands and authority, highlights how early Mormons were making Smith\u2019s words into a new kind of scripture almost as soon as they were spoken (Perry-ManyBiblesJoseph-\u2026).",
+                    "2. Biblical Facility and Print-Bible Culture",
+                    "\u25cf Theme: Smith\u2019s engagement with the Bible was deeply rooted in the early 19th-century print-bible culture, which emphasized accessibility, a multiplicity of translations, and a wide range of interpretative tools such as concordances and marginal notes. Smith and his collaborators utilized these resources to navigate and create new scriptures that mirrored and reinterpreted biblical texts.",
+                    "\u25cf Examples: Perry highlights that Smith\u2019s scriptural creations, like the Book of Mormon, were steeped in the formats, styles, and even specific content of the King James Bible, making them feel familiar and authoritative to readers of his day. For instance, the Book of Mormon replicates the style and language of the King James Bible, integrating hundreds of verses directly, such as entire chapters of Isaiah, which are copied with minor modifications to italicized words that suggest Smith was reading directly from a contemporary Bible during dictation. This meticulous attention to detail was not just imitation; it was a deliberate blending of the old and new to create something that felt seamlessly biblical (Perry-ManyBiblesJoseph-\u2026)."
+                ]
+            },
+            {
+                "text": "Notes:",
+                "page_num": 6,
+                "section_text": [
+                    "Christian privilege: unearned advantages Christians receive and corresponding disadvantages of religious minorities",
+                    "Don\u2019t have to be afraid of outing themselves to ask for a holiday off",
+                    "Christian normativity: marks Christian values/language/metaphors seem right and true",
+                    "Makes Christianity the \u201cnorm\u201d",
+                    "Ex. winter break \u2192 Christmas Break",
+                    "Christian Hegemony: takes this norm and makes it the dominant worldview, gives it social and legal power",
+                    "Supreme court gets involved",
+                    "2014 Hobby Lobby: HL didn\u2019t give their employees access to birth control coverage, violated their religious beliefs",
+                    "Get Christian holidays off normally (don\u2019t have to ask for it)",
+                    "Intersectionality",
+                    "Not everyone is one thing, there is an intersection between race and religion",
+                    "Optical illusion of equal religious freedom for all",
+                    "Separation of church and state",
+                    "Not in US constitution",
+                    "In Thomas Jefferson\u2019s 1802 letter to the Danbury Baptists",
+                    "Baptists are for religious freedom back in the day (minority)",
+                    "Now biggest protestant group",
+                    "Amendment I: congress shall make no law respecting an establishment of religion (Establishment clause) or prohibiting the free exercise thereof (free exercise clause)",
+                    "Reynolds vs. U.S (1878): congress bans polygamy, Reynolds claimed they violated his Free Exercise clause",
+                    "Gov said no: You can believe, you can\u2019t practice Race and religion",
+                    "Race is a social construct",
+                    "Race like gender is something we made up",
+                    "We place value in it, monitor it, police it, and teach it",
+                    "Doesn\u2019t mean it\u2019s not real with real consequences",
+                    "Race has a history",
+                    "Contingent and explicable without reference to religion",
+                    "Race and religion are co-constitutive",
+                    "1400s, Colonial projects influenced by european ideas of race and religion",
+                    "Iberian peninsula 1400s: creation of the idea of \u201climpieza de sangre\u201d",
+                    "\u201cCleaness of blood\u201d",
+                    "conversion to christianity wasn\u2019t enough, your ancestors had to be christian as well",
+                    "Spain leaders consolidated kingdoms through Christianity and kicking out Jews and Muslims"
+                ]
+            },
+            {
+                "text": "Readings:",
+                "page_num": 7,
+                "section_text": [
+                    "Read Khyati Joshi, White Christian Privilege: The Illusion of Religious Equality in America, Intro The introduction to White Christian Privilege: The Illusion of Religious Equality in America by Khyati Y. Joshi explores the pervasive presence of Christian privilege in the United States. Despite its status as one of the most religiously diverse countries in the world, the U.S. is deeply embedded in Christian, particularly Protestant, values and practices, which are reflected in its laws, culture, and social norms. This privilege offers Christians significant advantages while marginalizing religious minorities. Joshi argues that Christian privilege is often entangled with"
+                ]
+            },
+            {
+                "text": "Notes:",
+                "page_num": 12,
+                "section_text": [
+                    "Religion is what people do",
+                    "Broad definitions of religion",
+                    "Sigmund Freud: religion is the universal obsessional neurosis of humanity",
+                    "Psychology = sigmund = sickness",
+                    "Karl Marx: Religion is the opium of the people",
+                    "Marx = Make you numb",
+                    "Reductionist views (minimizes religion to one main action)",
+                    "Emile Durkheim: religion is an eminently social thing composed of beliefs and practices unity people in a \u201csingle moral community\u201d"
+                ]
+            },
+            {
+                "text": "Readings:",
+                "page_num": 14,
+                "section_text": [
+                    "Pasquier, Chapter 3: 26-58 Religion and Colonialism in Early America (1400s\u20131770s)",
+                    "Native American Religions:",
+                    "over 300 languages spoken and distinct religious beliefs",
+                    "European theories of religion influenced indigenous practices during colonization",
+                    "Religious beliefs were deeply integrated into life, governing areas such as creation myths, cosmology, and the afterlife.",
+                    "Hopewell Indians practiced an earth-diver myth that spread across various Native American groups.",
+                    "African Religions:",
+                    "via the transatlantic slave trade introduced traditional African religions, Islam, and Christianity to the New World",
+                    "practices included the worship of spirits or \"orishas\" and the use of rituals for healing and maintaining social harmony",
+                    "Christianity, especially in Catholic forms, began to blend with traditional African beliefs, as seen in the Kongolese adaptation of Christian saints to local deities.",
+                    "European Christianity:",
+                    "The Protestant Reformation in Europe heavily influenced the colonization of North America.",
+                    "Both Catholicism and Protestantism were brought to the New World, with Spain and France spreading Roman Catholicism, and English colonists introducing Protestant sects such as Anglicanism, Puritanism, and Quakerism",
+                    "Colonial powers often used religion to justify their imperial ambitions, especially in the conversion of Native populations. The Great Awakening and Evangelical Protestantism",
+                    "18th century spread across American colonies"
+                ]
+            },
+            {
+                "text": "Week #1: introduction",
+                "page_num": 18,
+                "section_text": [
+                    "Intros and quizzes"
+                ]
+            },
+            {
+                "text": "Reading: Pasquier, Chapter 7: 155-182",
+                "page_num": 18,
+                "section_text": [
+                    "1. Religion in America After 9/11: National Tragedy and the Limits of Religious Unity",
+                    "\u25cf After 9/11/2001, terrorist attacks brought a temporary sense of religious unity in America, but also highlighted the limits of this unity, revealing underlying tensions and conflicts within the American religious landscape.",
+                    "\u25cf Evidence: \u25cb Prayer for America Ceremony (2001): On September 23, 2001, a diverse group of about 20,000 people gathered at Yankee Stadium for a \u201cPrayer for America\u201d event to reflect on the 9/11 attacks. The ceremony featured religious leaders from various faiths (e.g., Catholic, Jewish, Muslim, Sikh, Protestant), celebrities, and political figures, all emphasizing themes of unity, diversity, and resilience (e.g., Oprah Winfrey, James Earl Jones, Rudy Giuliani, and George Pataki). This event exemplified an attempt to use religious pluralism and national unity to respond to tragedy. \u25cb Religious Pluralism as an Ideal: Despite the display of unity, the subsequent years exposed the fragility of this religious cohesion. CNN correspondent Martin Savidge noted the tension between \"diversity and unity\" as showcased during the ceremony. The post-9/11 unity was soon challenged by the realities of political divisions, foreign wars, and religious differences, questioning the sustainability of religious pluralism in a diverse society. \u25cb Anti-Muslim Sentiments and Actions: While the immediate aftermath saw a rise in favorable views towards Muslim Americans (from 45% to 59%), there was also a significant increase in anti-Muslim hate crimes, from 28 in 2000 to 481 in 2001, reflecting a sharp 1,618% increase. This indicates that while public sentiment appeared supportive, significant undercurrents of prejudice and division persisted.",
+                    "2. Hope, Race, and Rage: Religious and Racial Dynamics in American Politics"
+                ]
+            }
+        ]
+    }
+}
