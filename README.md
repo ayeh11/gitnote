@@ -37,6 +37,16 @@ sentence-transformers model; no note content is ever sent to an LLM API.
 
 ## Quick start
 
+The fast path (needs Python 3.12 and Node):
+
+```bash
+./setup.sh     # one-time: create venv, install backend + frontend deps
+./dev.sh       # start backend (:8000) and frontend (:5173) together
+```
+
+Then open http://localhost:5173. Use `OFFLINE=1 ./dev.sh` to run the embedding
+model fully offline once it's cached. The manual steps are below.
+
 ### Backend (Python 3.12)
 
 ```bash
