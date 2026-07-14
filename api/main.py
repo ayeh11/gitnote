@@ -53,10 +53,21 @@ def _upload_to_note(upload: UploadFile, raw: bytes) -> dict:
         return load_note(data, name)
 
     if ext == ".pdf":
-        with tempfile.NamedTemporaryFile(suffix=".pdf", delete=True) as tmp:
-            tmp.write(raw)
-            tmp.flush()
-            return load_note(pdf_to_note(tmp.name), name)
+        try:
+            with tempfile.NamedTemporaryFile(suffix=".pdf", delete=True) as tmp:
+                tmp.write(raw)
+                tmp.flush()
+                note = load_note(pdf_to_note(tmp.name), name)
+        except Exception as exc:  # pdfplumber/pypdfium parse failures
+            logger.exception("Failed to read PDF '%s'", name)
+            raise HTTPException(422, f"Could not read PDF '{name}': {exc}") from exc
+        if not note["headers"]:
+            raise HTTPException(
+                422,
+                f"No headings/bullets could be extracted from '{name}'. "
+                "It may be a scanned/image PDF with no selectable text.",
+            )
+        return note
 
     raise HTTPException(400, f"Unsupported file type '{ext}'. Upload .json or .pdf.")
 

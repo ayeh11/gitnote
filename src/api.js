@@ -1,7 +1,10 @@
 import axios from 'axios';
 
-// Base URL of the GitNote backend. Override with VITE_API_URL in a .env file.
-export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+// Base URL of the GitNote backend. Empty by default so requests go to the same
+// origin and are handled by the Vite dev proxy (see vite.config.js) — this
+// avoids CORS entirely in development. For a static production deploy, set
+// VITE_API_URL to the backend's absolute URL.
+export const API_URL = import.meta.env.VITE_API_URL || '';
 
 const client = axios.create({ baseURL: API_URL });
 
