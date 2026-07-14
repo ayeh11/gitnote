@@ -1,41 +1,16 @@
-certifi==2024.8.30
-cffi==1.17.1
-charset-normalizer==3.3.2
-click==8.1.7
-cryptography==43.0.1
-faiss-cpu==1.8.0.post1
-filelock==3.16.1
-fsspec==2024.9.0
-huggingface-hub==0.25.1
-idna==3.10
-Jinja2==3.1.4
-joblib==1.4.2
-MarkupSafe==2.1.5
-mpmath==1.3.0
-networkx==3.3
-nltk==3.9.1
-numpy==1.26.4
-packaging==24.1
-pdfminer.six==20231228
-pdfplumber==0.11.4
-pillow==10.4.0
-pycparser==2.22
-pypdfium2==4.30.0
-PyYAML==6.0.2
-regex==2024.9.11
-requests==2.32.3
-safetensors==0.4.5
-scikit-learn==1.5.2
-scipy==1.14.1
-sentence-transformers==3.1.1
-setuptools==75.1.0
-sympy==1.13.3
-threadpoolctl==3.5.0
-tk==0.1.0
-tokenizers==0.20.0
-torch==2.4.1
-tqdm==4.66.5
-transformers==4.45.1
-typing_extensions==4.12.2
-urllib3==2.2.3
-wheel==0.44.0
+# GitNote backend dependencies.
+# Target: Python 3.12. Install into a virtualenv (see api/README.md).
+#
+# The embedding model runs locally via sentence-transformers (CPU torch);
+# no LLM API calls are made. Lower bounds are used so pip resolves the latest
+# compatible builds for your platform; run `pip freeze` to pin exact versions.
+
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+
+sentence-transformers>=3.1
+faiss-cpu>=1.9
+nltk>=3.9
+numpy>=1.26
+pdfplumber>=0.11
