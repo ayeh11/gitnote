@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# GitNote
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Git-style merging for your notes. Upload two or more sets of notes (extracted
+from PDFs or as JSON) and GitNote **semantically merges** them: it groups similar
+sections, deduplicates near-identical bullet points, and surfaces the rest as
+**merge conflicts** you resolve in a diff-style UI — keep mine, keep theirs, keep
+both, or drop.
 
-## Available Scripts
+Everything runs **locally and offline**. Embeddings are produced by a local
+sentence-transformers model; no note content is ever sent to an LLM API.
 
-In the project directory, you can run:
+## How it works
 
-### `npm start`
+1. **Extract** — `pdfplumber` turns PDFs into a header/bullet structure.
+2. **Embed** — each header and bullet is embedded locally with
+   `all-MiniLM-L6-v2` (`sentence-transformers`).
+3. **Group** — headers that are both semantically similar *and* lexically
+   overlapping are merged (union-find over the similarity matrix).
+4. **Deduplicate** — within each group, near-identical bullets (cosine similarity
+   + word overlap, via FAISS) collapse into one; the more detailed version is
+   kept and the alternatives become conflicts.
+5. **Resolve** — the frontend shows only the conflicts and lets you assemble the
+   final document, then copy or download it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project layout
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+.
+├── index.html, vite.config.js, package.json   # Vite + React frontend
+├── src/                                        # React app (views, components)
+└── api/                                        # FastAPI backend
+    ├── main.py                                 # HTTP API
+    ├── notemerge/                              # merge pipeline (embedding, dedup, pdf…)
+    ├── tests/                                  # pytest suite + fixtures
+    └── requirements.txt
+```
 
-### `npm test`
+## Quick start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend (Python 3.12)
 
-### `npm run build`
+```bash
+cd api
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --reload --port 8000
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The first run downloads the embedding model (~90 MB) and NLTK data, then caches
+them. After that you can run fully offline: `HF_HUB_OFFLINE=1 uvicorn main:app`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+npm run dev        # http://localhost:5173
+```
 
-### `npm run eject`
+Set the backend URL by copying `.env.example` to `.env` (defaults to
+`http://localhost:8000`).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## API
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Method | Path           | Body                         | Returns                              |
+|--------|----------------|------------------------------|--------------------------------------|
+| GET    | `/api/health`  | —                            | `{"status": "ok"}`                   |
+| POST   | `/api/extract` | one or more PDF files        | extracted header/bullet JSON         |
+| POST   | `/api/merge`   | two or more `.json`/`.pdf`   | `{ merged_text, headers: [...] }`    |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tests
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd api && .venv/bin/python -m pytest
+```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+See [CHANGELOG.md](CHANGELOG.md) for the 2026 modernization notes.

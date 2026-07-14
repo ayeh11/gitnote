@@ -1,6 +1,8 @@
 // src/About.js
+// NOTE: legacy demo page kept for reference; its /api/add + /api/data endpoints
+// are not part of the consolidated GitNote backend.
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import client from '../api';
 import './About.css';
 
 function About() {
@@ -13,7 +15,7 @@ function About() {
   const postData = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5001/api/add', {
+      const response = await client.post('/api/add', {
         name: name,
         value: value,
       });
@@ -28,7 +30,7 @@ function About() {
   // Function to fetch stored data from the backend
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://localhost:5001/api/data');
+      const response = await client.get('/api/data');
       console.log('Fetched data:', response.data); // Log the fetched data to verify it's an array
       setDataList(response.data || []); // Ensure the response is an array
     } catch (error) {
